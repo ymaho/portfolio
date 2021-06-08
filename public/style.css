@@ -32,7 +32,7 @@ h2 {
     font-size: 50px;
 } 
 
-.justToFadeIn{
+.justToFadeIn {
     height: 100px;
     color: #57280C;
     animation: whiteToColor;
@@ -58,9 +58,8 @@ h2 {
     top: 47%;
     left: 42%;
     font-size: 35px;
-    color: #997F6B;
 }
 
-a:link {
+a:link, a:visited {
     color: #997F6B;
 }
