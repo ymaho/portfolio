@@ -1,0 +1,13 @@
+body {
+    background-image: url("plants.JPEG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    font-size: 90px;
+    color: #FFFFFF;
+}
