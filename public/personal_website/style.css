@@ -1,11 +1,8 @@
 body {
-    background-image: url("sunset.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
     font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
 }
 
-.headerBox {
+.navBarBox{
     background-color: rgba(255, 255, 255, 0.3);
     object-position: center top;
     position:   absolute;
@@ -15,13 +12,13 @@ body {
     height: 45px;
 }
 
-.header {
+.navBar {
     font-size: 20px;
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a:link {
+a:link, a:visited{
     color: #FFFFFF;
     opacity: 1;
     margin: 0;
