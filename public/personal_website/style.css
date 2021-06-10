@@ -66,3 +66,51 @@ h1 {
     70% {opacity:1;}
     100% {opacity:1;}
 }
+
+
+
+/* about */
+.intro {
+    width: 900px; 
+    height: 100%;
+    position: fixed;
+    top: 20%;
+    left: 14%;
+    display: flex;
+
+}
+
+.info {
+    color: #FFFFFF;
+    padding-left: 90px;
+}
+
+.moveRightToCenter { 
+    position: relative;
+    animation: rightToCenter 3s;
+}
+
+
+@keyframes rightToCenter {
+    from {right: -500px;}
+    to {right: 0px;}
+}
+
+#fasterMoveFromRight {
+    animation: rightToCenter 2s;
+}
+
+.moveLeftToCenter { 
+    position: relative;
+    animation: LeftToCenter 3s;
+}
+
+
+@keyframes LeftToCenter {
+    from {left: -500px;}
+    to {left: 0px;}
+}
+
+#fasterMoveFromLeft {
+    animation: LeftToCenter 2s;
+}
