@@ -70,13 +70,18 @@ h1 {
 
 
 /* about */
+body {
+    background-color: #AB9B91;
+}
+
 .main {
     width: 100%;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    
 }
 
 .intro {
@@ -119,3 +124,15 @@ h1 {
 #fasterMoveFromLeft {
     animation: LeftToCenter 2s;
 }
+
+.shortSentenses {
+    font-size: 30px; 
+    color: #4D321F; 
+    padding-left: 20px; 
+    position: absolute; 
+    top: 600px;
+}
+
+/* .menu {
+
+} */
