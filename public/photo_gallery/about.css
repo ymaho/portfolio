@@ -1,0 +1,136 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+}
+
+nav.pages {
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #FFFFFF;
+    
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    text-decoration: none;
+    font-family: Didot, serif;
+    margin-top: 2px;
+}
+  
+li {
+    float: left;
+}
+
+li a.contact {
+    padding-right: 30px;
+    position: absolute;
+    right: 0;
+}
+
+li a:link, li a:visited{
+    color: brown;
+    text-decoration: none;
+}
+
+/* main page */
+.intro {
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    color: brown;
+    width: max-content;
+
+    z-index: 100;
+    /* ^^makes text over the image */
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.background img {
+    width: 1030px;
+    height: 550px;
+    position: relative;
+    top: 65px;
+    left: 250px;
+}
+
+.container_1 {
+    position: relative;
+}
+
+.skills {
+    position: relative;
+    top: -420px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+h4 {
+    color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+}
+
+.skills p {
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+
+
+/* Small devices (landscape phones, 500px and up) */
+@media (min-width: 500px) {  
+    .pages {
+        font-size: 18px;
+    }
+    ul {
+        padding-left: 15px;
+    }
+    li a.contact {
+        padding-right: 15px;
+        position: absolute;
+        right: 0;
+    }
+}
+   
+  /* Medium devices (tablets, 700px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 700px) {  
+    .pages {
+        font-size: 20px;
+    }
+    ul {
+        padding-left: 30px;
+    }
+    li a.contact {
+        padding-right: 30px;
+        position: absolute;
+        right: 0;
+    }
+}
+   
+  /* Large devices (desktops, 900px and up) */
+@media (min-width: 900px) { 
+    .pages {
+        font-size: 20px;
+    }
+}
+   
+  /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .pages {
+        font-size: 20px;
+    }
+}
