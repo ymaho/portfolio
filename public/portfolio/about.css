@@ -175,6 +175,17 @@ h4 {
     top: -70px;
 }
 
+.project4 h2 {
+    font-size: 20px;
+    color: #FFFFFF;
+    position: relative;
+    top: 70px;
+    text-align: center;
+    
+    font-weight: lighter;
+    /* thinner text */
+}
+
 /* container 2  */
 /* container 2  */
 /* container 2  */
