@@ -2,6 +2,7 @@ html, body {
     margin: 0; 
     padding: 0;
     height: 2000px;
+    /* width: 100%; */
 }
 
 nav.pages {
@@ -10,6 +11,7 @@ nav.pages {
     top: 0px;
     width: 100%;
     background-color: #FFFFFF;
+    
     
 }
 
@@ -39,6 +41,7 @@ li a:link, li a:visited{
 /* main page */
 .container1{
     height: 570px;
+    width: auto;
 }
 
 .intro {
@@ -93,14 +96,16 @@ h4 {
 /* container 2  */
 /* container 2  */
 /* container 2  */
+.container2 {
+    width: auto;
+}
 
 .title2 h1 {
     font-size: 100px;
     margin-top: 0px;
     position: relative;
     top: 100px;
-    left: 250px;
-    z-index: 100;
+    left: 252px;
 }
 .projects_wrapper {
     width: 774px;
@@ -111,7 +116,7 @@ h4 {
 }
 
 .project1 {
-    width: 375px; 
+    width: 370px; 
     height: 195px;
     background-color: #A12818;
     display:inline-block;
@@ -119,16 +124,17 @@ h4 {
 }
 
 .project2 {
-    width: 373px; 
+    width: 365px; 
     height: 194px;
     border: 1px solid #54150D;
     display:inline-block;
     padding: 5px;
+    margin-left: 8px;
     color: #54150D;
 }
 
 .project3 {
-    width: 375px; 
+    width: 370px; 
     height: 195px;
     display:inline-block;
     padding: 5px;
@@ -136,12 +142,13 @@ h4 {
 }
 
 .project4 {
-    width: 375px; 
+    width: 370px; 
     height: 195px;
     background-color: #54150D;
     display:inline-block;
     padding: 5px;
     margin-top: 5px;
+    margin-left: 8px;
 }
 
 .project1 a, .project2 a, .project4 a{
@@ -167,6 +174,36 @@ h4 {
     position:relative;
     top: -70px;
 }
+
+/* container 2  */
+/* container 2  */
+/* container 2  */
+.container3 {
+    position: relative;
+    top: 50px;
+}
+
+.title3 h1{
+    font-size: 100px;
+    position: relative;
+    left: 100px;
+    margin-bottom: 0px;
+    z-index: 100;
+}
+
+.education_wrapper {
+    background-color: #EEE6E5;
+    width: auto;
+    height: 450px;
+    position: relative;
+    top: -35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
 
 
 

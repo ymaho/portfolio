@@ -33,7 +33,7 @@ li a.contact {
 }
 
 li a:link, li a:visited{
-    color: brown;
+    color: #A12818;
     text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ div .img-fluid {
 }
 
 .color_background {
-    background-color: brown;
+    background-color: #A12818;
     color: white;
     height: 100%;
     width: 45%;
