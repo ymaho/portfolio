@@ -39,7 +39,7 @@ li a.contact {
 }
 
 li a:link, li a:visited{
-    color: #A12818;
+    color: #54150D;
     text-decoration: none;
 }
 
@@ -53,7 +53,8 @@ container1 */
     background-color: #EEE6E5;
     height: 450px;
     position: relative;
-    top: 70px;
+    margin-top: 0px;
+    top: 90px;
 }
 
 .descriptions1 {
@@ -65,9 +66,10 @@ container1 */
 .descriptions1 h1 {
     font-size: 60px;
     margin-bottom: 0px;
-    color: #54150D;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #54150D;
     position: relative;
-    top: -50px;
+    top: -70px;
     
 }
 
