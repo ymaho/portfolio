@@ -109,8 +109,6 @@ h4 {
     margin-top: 0px;
     position: relative;
     top: 100px;
-    left: 3
-    0%;
 }
 
 .container2 {
@@ -123,22 +121,37 @@ h4 {
 
 .projects_wrapper {
     width: 950px;
-    padding-top: 60px;
+    padding-top: 70px;
+    padding-left: 30px;
 }
 
 .project1, .project2, .project3{
     width: 300px; 
     height: 400px;
-    background-color: #A12818;
-    display:inline-block;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.project1 img, .project2 img, .project3 img {
+    padding-top: 40px;
+    width: 100px; 
+
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    /* center an image horizontally */
+}
+
+.project1 img {
+    position: relative;
+    top: -30px;
 }
 
 .project1 a, .project2 a, .project3 a{
     position: relative;
-    top: 30%;
     text-align: center;
-    font-size: 30px;
-    color: #FFFFFF;
+    font-size: 35px;
+    color: #542B26;
     text-decoration: none;
     display: block; 
     margin: auto;
@@ -146,8 +159,23 @@ h4 {
     /* thinner text */
 }
 
+.project1 a {
+    position: relative;
+    top: -20px;
+}
 
-
+.project1 h3, .project2 h3, .project3 h3 {
+    position: relative;
+    text-align: center;
+    top: 15px;
+    font-size: 20px;
+    color: #542B26;
+    text-decoration: none;
+    display: block; 
+    margin: auto;
+    font-weight: lighter;
+    /* thinner text */
+}
 
 .projects a:link, .projects a:visited{
     text-decoration: none;
@@ -157,12 +185,12 @@ h4 {
     
 
 
-/* container 2  */
-/* container 2  */
-/* container 2  */
+/* container 3  */
+/* container 3  */
+/* container 3  */
 .container3 {
     position: relative;
-    top: 50px;
+    top: -90px;
     width: 100%;
 }
 
