@@ -150,16 +150,22 @@ div.project1, div.project2, div.project3 {
 
 .project1 img, .project2 img, .project3 img {
     padding-top: 40px;
-    width: 100px; 
-
+    width: 110px; 
     display:block;
     margin-left:auto;
     margin-right:auto;
     /* center an image horizontally */
 }
 
+.project1 img, .project2 img {
+    width: 120px; 
+    position: relative;
+    top: -5px;
+}
+
 .project1 a, .project2 a, .project3 a{
     position: relative;
+    top: -5px;
     text-align: center;
     font-size: 35px;
     color: #542B26;
@@ -170,15 +176,15 @@ div.project1, div.project2, div.project3 {
     /* thinner text */
 }
 
-.project1 a {
+.project1 a, .project2 a {
     position: relative;
-    top: -20px;
+    top: 5px;
 }
 
 .project1 h3, .project2 h3, .project3 h3 {
     position: relative;
     text-align: center;
-    top: 15px;
+    top: 10px;
     font-size: 20px;
     color: #542B26;
     text-decoration: none;
@@ -186,6 +192,11 @@ div.project1, div.project2, div.project3 {
     margin: auto;
     font-weight: lighter;
     /* thinner text */
+}
+
+.project1 h3, .project2 h3{
+    position: relative;
+    top: 40px;
 }
 
 .projects a:link, .projects a:visited{
