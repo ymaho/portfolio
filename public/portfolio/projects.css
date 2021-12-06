@@ -50,7 +50,7 @@ container1
 container1 */
 
 .container1 {
-    background-color: #EEE6E5;
+    background-image: linear-gradient(#EEE6E5, #FFFFFF);
     height: 450px;
     position: relative;
     margin-top: 0px;
