@@ -36,11 +36,10 @@
 }
 
 .sky {
-    background-image: url(fb-game-background.png);
+    background-image: url(bg.jpg);
     width: 500px;
     height: 580px;
     position: absolute;
-
 }
 
 .ground {
@@ -54,7 +53,7 @@
 }
 
 .bird {
-    background-image: url(flappy-bird.png);
+    background-image: url(real.png);
     width: 60px;
     height: 45px;
     position: absolute;
