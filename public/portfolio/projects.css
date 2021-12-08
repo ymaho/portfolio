@@ -55,6 +55,7 @@ container1 */
     position: relative;
     margin-top: 0px;
     top: 63px;
+    padding-bottom: 40px;
 }
 
 .descriptions1 {
@@ -93,12 +94,16 @@ container1 */
 container2
 container2 */
 
+#project2 {
+    position: absolute;
+    top: 300;
+}
 
 .container2 {
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
     height: 450px;
     position: relative;
-    top: 150px;
+    top: 80px;
 }
 
 .descriptions2 {
@@ -126,8 +131,7 @@ container2 */
 
 .container2 img {
     position: relative;
-    top: -410px;
+    top: -420px;
     left: 65%;
     width: 400px;
 }
-
