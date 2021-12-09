@@ -1,7 +1,6 @@
 html, body {
     margin: 0; 
     padding: 0;
-    height: 2000px;
     /* width: 100%; */
 }
 
@@ -90,6 +89,7 @@ container1 */
     width: 400px;
 }
 
+
 /* container2
 container2
 container2 */
@@ -104,7 +104,7 @@ container2 */
     height: 450px;
     position: relative;
     top: 80px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 .descriptions2 {
@@ -147,8 +147,8 @@ container3 */
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
     height: 450px;
     position: relative;
-    top: 80px;
-    padding-bottom: 40px;
+    top: 70px;
+    
 }
 
 .descriptions3 {
