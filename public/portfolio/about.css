@@ -63,12 +63,14 @@ li a:link, li a:visited{
 
 .intro2 h3 {
     position: relative;
-    top: 220px;
-    left: 10%;
+    top: 230px;
+    left: 8.5%;
     width: 580px;
     z-index: 100;
     color: #EEE6E5;
     font-size: 25px;
+    padding-left: 5px;;
+    border-left: 3px solid #EEE6E5;
 }
 
 /* .background img {

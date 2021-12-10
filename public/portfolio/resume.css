@@ -1,0 +1,75 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+    /* width: 100%; */
+}
+
+nav.pages {
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #FFFFFF;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    text-decoration: none;
+    font-family: Didot, serif;
+    margin-top: 2px;
+
+    font-size: 20px;
+    position: relative;
+    left: -10px;
+    /* only the page for adjustment */
+}
+  
+li {
+    float: left;
+}
+
+li a.contact {
+    padding-right: 30px;
+    position: absolute;
+    right: 0;
+}
+
+li a:link, li a:visited{
+    color: #54150D;
+    text-decoration: none;
+}
+
+
+.container1 {
+    background-image: linear-gradient(#EEE6E5, #FFFFFF);
+    height: 450px;
+    position: relative;
+    top: 80px;
+    padding-bottom: 60px;
+}
+
+.descriptions1 {
+    position: relative;
+    top: -50px;
+    left: 5%;
+    width: 700px;
+}
+
+.descriptions1 h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #54150D;
+    
+}
+
+.descriptions1 h2, .descriptions1 a {
+    font-size: 24px;
+    margin-top: 0px;
+    position: relative;
+    top: 20px;
+    color: #54150D;
+}
