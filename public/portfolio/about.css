@@ -48,12 +48,12 @@ li a:link, li a:visited{
     width: 100%;
     object-fit: cover;
     position: relative;
-    top: -170px;
+    top: -240px;
 }
 
 .intro1 img {
     position: relative;
-    top: 250px;
+    top: 240px;
     left: 8%;
     width: 580px;
 
@@ -63,12 +63,12 @@ li a:link, li a:visited{
 
 .intro2 h3 {
     position: relative;
-    top: 230px;
-    left: 8.5%;
+    top: 210px;
+    left: 8%;
     width: 580px;
     z-index: 100;
     color: #EEE6E5;
-    font-size: 25px;
+    font-size: 30px;
     padding-left: 5px;;
     border-left: 3px solid #EEE6E5;
 }
@@ -85,7 +85,7 @@ li a:link, li a:visited{
 
 .skills {
     position: relative;
-    top: -675px;
+    top: -740px;
     text-align: right;
     padding-right: 50px;
 }
