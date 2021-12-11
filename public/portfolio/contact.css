@@ -50,6 +50,8 @@ main section */
 
 .container {
     width: auto;
+    height: 500px;
+    background-image: linear-gradient(#EEE6E5, #FFFFFF);
 }
 
 .title h1 {
