@@ -18,8 +18,8 @@ ul {
     overflow: hidden;
     text-decoration: none;
     font-family: Didot, serif;
-    margin-top: 2px;
     margin-left: 15px;
+    padding-top: 18px;
 }
   
 li {
@@ -36,6 +36,7 @@ li a:link, li a:visited{
     color: #542B26;
     text-decoration: none;
 }
+
 
 /* main page */
 .container1{
@@ -241,78 +242,3 @@ div.project1, div.project2, div.project3 {
 
 
 
-
-
-
-/* Small devices (landscape phones, 500px and up) */
-@media (min-width: 500px) {  
-    .pages {
-        font-size: 18px;
-    }
-    ul {
-        padding-left: 15px;
-    }
-    li a.contact {
-        padding-right: 15px;
-        position: absolute;
-        right: 0;
-    }
-}
-   
-  /* Medium devices (tablets, 700px and up) The navbar toggle appears at this breakpoint */
-@media (max-width: 700px) {  
-    .pages {
-        font-size: 20px;
-    }
-    li a.contact {
-        padding-right: 30px;
-        position: absolute;
-        right: 0;
-    }
-}
-   
-  /* Large devices (desktops, 900px and up) */
-@media (min-width: 900px) { 
-    /* .pages {
-        font-size: 20px;
-    }
-
-    .intro1 img {
-        width: 400px;
-        position: relative;
-        top: 255px;
-    }
-
-    .intro2 img {
-        position: relative;
-        top: 220px;
-        left: 7.5%;
-        width: 400px;
-    }
-
-    .background img {
-        width: 1030px;
-        height: 550px;
-        position: relative;
-        top: -150px;
-        left: 20%;
-    }
-
-    .skills {
-        position: relative;
-        top: -630px;
-        text-align: right;
-        padding-right: 50px;
-    }
-
-    .skills p {
-        font-size: 30px;
-        padding: 0px;
-        margin: 0px;
-        color: #FFFFFF;
-    } */
-}
-   
-  /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-}

@@ -1,9 +1,7 @@
-/* index.html */
-/* nav bar */
 html, body {
     margin: 0; 
     padding: 0;
-    color: #FFFFFF;
+    height: 1000px;
 }
 
 nav.pages {
@@ -12,7 +10,7 @@ nav.pages {
     top: 0px;
     width: 100%;
     background-color: #FFFFFF;
-    
+    font-size: 20px;
 }
 
 ul {
@@ -20,6 +18,8 @@ ul {
     overflow: hidden;
     text-decoration: none;
     font-family: Didot, serif;
+    margin-left: 15px;
+    padding-top: 18px;
 }
   
 li {
@@ -33,11 +33,9 @@ li a.contact {
 }
 
 li a:link, li a:visited{
-    color: #54150D;
+    color: #542B26;
     text-decoration: none;
 }
-
-
 
 
 
@@ -81,213 +79,44 @@ p.sub {
 
 
 
-/* 
-subscreen */
 
-h1 {
-    width: 100%; 
+
+/* Main page
+container1
+container1
+container1 */
+
+.container_2 {
+    background-image: linear-gradient(#EEE6E5, #FFFFFF);
+    height: 450px;
+    position: relative;
+    margin-top: 0px;
+    top: 100px;
+    padding-bottom: 40px;
+}
+
+.descriptions2 {
     text-align: center;
-    padding-top: 50px;
+    /* position: relative; */
+    width: 700px;
+}
+
+.descriptions2 p {
+    font-size: 60px;
+    margin-bottom: 0px;
     font-family: Didot, serif;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #54150D;
+    position: relative;
+    top: -400px;
+    
 }
 
-/*columns background*/
-.container {
-    margin: 50px;
-}
-
-img.img-fluid.ihv {
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.img1 {
-    background-image: url(momiji_bw.JPEG);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.img2 {
-    background-image: url(ajisai_bw.JPEG);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.img3 {
-    background-image: url(donuts_bw.JPEG);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/*image fade*/
-.ihv {
-    opacity: 0;
-    transition-duration: 1.25s;
-}
-.ihv:hover {
-    opacity: 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-/* Small devices (landscape phones, 500px and up) */
-@media (min-width: 500px) {  
-    .pages {
-        font-size: 18px;
-    }
-    ul {
-        padding-left: 15px;
-    }
-    li a.contact {
-        padding-right: 15px;
-        position: absolute;
-        right: 0;
-    }
-    p {font-size: 25px;
-        padding-left: 10px;
-        padding-top: 300px;
-    } /*1rem = 16px*/
-    p.sub {
-        font-size: 13px;
-        /* position: absolute;
-        top: 200px; */
-    }
-    img.img-fluid.ihv {
-        height: 300px;
-        margin-bottom: 20px;
-    }
-    .img1 {
-        background-image: url(momiji_bw.JPEG);
-        height: 300px;
-        margin-bottom: 20px;
-    }
-    .img2 {
-        background-image: url(ajisai_bw.JPEG);
-        height: 300px;
-        margin-bottom: 20px;
-    }
-    .img3 {
-        background-image: url(donuts_bw.JPEG);
-        height: 300px;
-        margin-bottom: 20px;
-    }
-}
-   
-  /* Medium devices (tablets, 700px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 700px) {  
-    .pages {
-        font-size: 20px;
-    }
-    ul {
-        padding-left: 30px;
-    }
-    li a.contact {
-        padding-right: 30px;
-        position: absolute;
-        right: 0;
-    }
-    p {font-size: 30px;
-        padding-left: 20px;
-        padding-top: 330px;
-    } /*1rem = 16px*/
-    p.sub {
-        font-size: 18px;
-        /* position: absolute;
-        top: 200px; */
-    }
-    img.img-fluid.ihv {
-        height: 350px;
-        margin-bottom: 20px;
-    }
-    .img1 {
-        background-image: url(momiji_bw.JPEG);
-        height: 350px;
-        margin-bottom: 20px;
-    }
-    .img2 {
-        background-image: url(ajisai_bw.JPEG);
-        height: 350px;
-        margin-bottom: 20px;
-    }
-    .img3 {
-        background-image: url(donuts_bw.JPEG);
-        height: 350px;
-        margin-bottom: 20px;
-    }
-}
-   
-  /* Large devices (desktops, 900px and up) */
-@media (min-width: 900px) { 
-    .pages {
-        font-size: 20px;
-    }
-    p {font-size: 40px;
-        padding-left: 30px;
-        padding-top: 340px;
-    } /*1rem = 16px*/
-    p.sub {
-        font-size: 20px;
-        /* position: absolute;
-        top: 200px; */
-    }
-    img.img-fluid.ihv {
-        height: 400px;
-        margin-bottom: 20px;
-    }
-    .img1 {
-        background-image: url(momiji_bw.JPEG);
-        height: 400px;
-        margin-bottom: 20px;
-    }
-    .img2 {
-        background-image: url(ajisai_bw.JPEG);
-        height: 400px;
-        margin-bottom: 20px;
-    }
-    .img3 {
-        background-image: url(donuts_bw.JPEG);
-        height: 400px;
-        margin-bottom: 20px;
-    }
-}
-   
-  /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-    .pages {
-        font-size: 20px;
-    }
-    p {font-size: 45px;
-        padding-left: 30px;
-        padding-top: 360px;
-    } /*1rem = 16px*/
-    p.sub {
-        font-size: 20px;
-        /* position: absolute;
-        top: 200px; */
-    }   
-    img.img-fluid.ihv {
-        height: 450px;
-        margin-bottom: 20px;
-    }
-    .img1 {
-        background-image: url(momiji_bw.JPEG);
-        height: 450px;
-        margin-bottom: 20px;
-    }
-    .img2 {
-        background-image: url(ajisai_bw.JPEG);
-        height: 450px;
-        margin-bottom: 20px;
-    }
-    .img3 {
-        background-image: url(donuts_bw.JPEG);
-        height: 450px;
-        margin-bottom: 20px;
-    }
+.descriptions2 p.sub {
+    font-size: 24px;
+    margin-top: 0px;
+    position: relative;
+    top: -70px;
+    color: #54150D;
+    font-family: Didot, serif;
 }
