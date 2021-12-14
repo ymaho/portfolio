@@ -2,6 +2,7 @@ html, body {
     margin: 0; 
     padding: 0;
     height: 1000px;
+    font-family: Didot, serif;
 }
 
 nav.pages {
@@ -39,22 +40,22 @@ li a:link, li a:visited{
 
 
 /* main page */
-.container1{
-    height: 570px;
-    width: auto;
+body .container-fluid {
+    position: relative;
+    top: 0;
+    padding: 0;
 }
 
-.img-fluid img{
-    height: 570px;
+div .img-fluid {
+    z-index: 10000;
+    height: 620px;
     width: 100%;
     object-fit: cover;
-    position: relative;
-    top: -210px;
 }
 
 .intro1 img {
     position: relative;
-    top: 240px;
+    top: -400px;
     left: 8%;
     width: 580px;
 
@@ -62,30 +63,20 @@ li a:link, li a:visited{
     /* ^^makes text over the image */
 }
 
-.intro2 h3 {
+.intro2 p {
     position: relative;
-    top: 210px;
+    top: -400px;
     left: 8%;
     z-index: 100;
     color: #EEE6E5;
     font-size: 25px;
-    padding-left: 5px;;
+    padding-left: 5px;
     border-left: 3px solid #EEE6E5;
 }
 
-/* .background img {
-    width: 80%;
-    height: 550px;
-    position: relative;
-    top: -200px;
-    left: 20%;
-} */
-
-/* wrong spacing at the top */
-
 .skills {
     position: relative;
-    top: -720px;
+    top: -745px;
     text-align: right;
     padding-right: 50px;
 }
@@ -94,12 +85,13 @@ h4 {
     color: #FFFFFF;
     padding: 0px;
     margin: 0px;
+    font-size: 20px;
 }
 
 .skills p {
-    font-size: 35px;
+    font-size: 30px;
     padding: 0px;
-    margin: 0px;
+    margin: -5px;
     color: #FFFFFF;
 }
 
@@ -107,22 +99,14 @@ h4 {
 /* container 2  */
 /* container 2  */
 
-/* .title2 img {
-    width: 400px;
-    margin-top: 0px;
-    position: relative;
-    top: 100px;
-    left: 10%;
-    padding-bottom: 0px;
+/* .container2 {
+    width: 100%;
 } */
 
-.container2 {
-    width: 100%;
-}
-
-.title2 h1{
+.title2 p {
     font-size: 100px;
     position: relative;
+    top: -650px;
     left: 10%;
     margin-bottom: 0px;
     z-index: 100;
@@ -130,10 +114,9 @@ h4 {
 
 .background_color {
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
-    width: 100%;
     height: 450px;
     position: relative;
-    top: -35px;
+    top: -700px;
 }
 
 .projects_wrapper {
@@ -143,12 +126,12 @@ h4 {
 }
 
 div.project1, div.project2, div.project3 {
-    width: 300px; 
+    width: 310px; 
     height: 400px;
     margin: 30px;
     padding-bottom: 0px;
     position: relative;
-    top: -480px;
+    top: -1150px;
 }
 
 .project1 img, .project2 img, .project3 img {
@@ -161,10 +144,8 @@ div.project1, div.project2, div.project3 {
     /* center an image horizontally */
 }
 
-.project1 img, .project2 img {
+.project1 img {
     width: 120px; 
-    position: relative;
-    top: -5px;
 }
 
 .project1 a, .project2 a, .project3 a{
@@ -176,16 +157,14 @@ div.project1, div.project2, div.project3 {
     text-decoration: none;
     display: block; 
     margin: auto;
-    font-weight: lighter;
-    /* thinner text */
 }
 
-.project1 a, .project2 a {
+.project1 a {
     position: relative;
-    top: 5px;
+    top: 10px;
 }
 
-.project1 h3, .project2 h3, .project3 h3 {
+.project1 p, .project2 p, .project3 p {
     position: relative;
     text-align: center;
     top: 10px;
@@ -198,9 +177,9 @@ div.project1, div.project2, div.project3 {
     /* thinner text */
 }
 
-.project1 h3, .project2 h3{
+.project1 p {
     position: relative;
-    top: 40px;
+    top: 45px;
 }
 
 .projects a:link, .projects a:visited{
@@ -216,24 +195,24 @@ div.project1, div.project2, div.project3 {
 /* container 3  */
 .container3 {
     position: relative;
-    top: -550px;
-    width: 100%;
+    top: -1050px;
+    background-image: linear-gradient(#EEE6E5, #FFFFFF);
 }
 
-.title3 h1{
+.title3 p {
     font-size: 100px;
     position: relative;
+    top: -100px;
     left: 10%;
     margin-bottom: 0px;
     z-index: 100;
 }
 
 .education_wrapper {
-    background-image: linear-gradient(#EEE6E5, #FFFFFF);
     width: 100%;
     height: 440px;
     position: relative;
-    top: -35px;
+    top: -150px;
     display: flex;
     justify-content: space-evenly;
 }

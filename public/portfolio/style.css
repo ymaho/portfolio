@@ -1,7 +1,6 @@
 html, body {
     margin: 0; 
     padding: 0;
-    height: 1000px;
 }
 
 nav.pages {
@@ -86,37 +85,40 @@ container1
 container1
 container1 */
 
-.container_2 {
+/* .container_2 {
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
     height: 450px;
     position: relative;
     margin-top: 0px;
     top: 100px;
     padding-bottom: 40px;
-}
-
+} */
+/* 
 .descriptions2 {
-    text-align: center;
-    /* position: relative; */
-    width: 700px;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    top: -300px;
 }
 
 .descriptions2 p {
     font-size: 60px;
     margin-bottom: 0px;
     font-family: Didot, serif;
-    color: #FFFFFF;
-    -webkit-text-stroke: 1px #54150D;
+    color: #54150D;
     position: relative;
-    top: -400px;
-    
+    left: 15%;
 }
 
-.descriptions2 p.sub {
-    font-size: 24px;
+.descriptions2 a {
+    font-size: 40px;
     margin-top: 0px;
-    position: relative;
-    top: -70px;
     color: #54150D;
     font-family: Didot, serif;
+    text-align: center;
 }
+
+.descriptions2 a:link, .descriptions2 a:visited {
+    color: #542B26;
+    text-decoration: none;
+} */

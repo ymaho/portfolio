@@ -2,6 +2,7 @@ html, body {
     margin: 0; 
     padding: 0;
     height: 1000px;
+    font-family: Didot, serif;
 }
 
 nav.pages {
@@ -64,11 +65,11 @@ li a:link, li a:visited{
     margin: 50px;
 }
 
-.container1 h1 {
+.container1 p {
     font-size: 25px;
     margin-bottom: 0px;
     color: #54150D;
     text-align: center;
     position: relative;
-    top: 30px;
+    top: 40px;
 }

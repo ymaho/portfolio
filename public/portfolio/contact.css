@@ -1,7 +1,7 @@
 html, body {
     margin: 0; 
     padding: 0;
-    height: 1000px;
+    font-family: Didot, serif;
 }
 
 nav.pages {
@@ -43,13 +43,13 @@ main section
 main section
 main section */
 
-.container {
+.container1 {
     width: auto;
     height: 500px;
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
 }
 
-.title h1 {
+.title p {
     font-size: 30px;
     margin-top: 70px;
     position: relative;
