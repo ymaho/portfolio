@@ -253,14 +253,14 @@ div.project1, div.project2, div.project3 {
 
     .intro1 img {
         position: relative;
-        top: -375px;
+        top: -410px;
         left: 3%;
         width: 200px;
     }
 
     .intro2 p {
         position: relative;
-        top: -375px;
+        top: -410px;
         left: 3%;
         z-index: 100;
         color: #EEE6E5;
@@ -271,7 +271,7 @@ div.project1, div.project2, div.project3 {
 
     .skills {
         position: relative;
-        top: -595px;
+        top: -620px;
         text-align: right;
         padding-right: 3px;
     }
