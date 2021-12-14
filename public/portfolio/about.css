@@ -228,7 +228,7 @@ div.project1, div.project2, div.project3 {
 
 
 /* Small devices (landscape phones, 500px and up) */
-@media screen and (min-width: 500px) {  
+@media screen and (min-width: 300px) {  
     /* section1 */
     ul {
         padding-left: 10px;
