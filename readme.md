@@ -1,4 +1,4 @@
-## Portfoio Website
+## Portfolio Website
 ### Description
 It is an on-going project that I have been working to showcase my techinal skills: programming, interface design, and degital design. 
 
@@ -9,11 +9,17 @@ It is an on-going project that I have been working to showcase my techinal skill
 * Macbook 13", Macbook Pro 13"/14"/15"16"
 * Notebook 13"/15"
 * Desktop 19"/20"/22"/23"/24"
+<!-- * Android/Pixel 2
+* Pixel 3A
+* iPhone 7/7 Plus/8/8 Plus/X/XR/XS/XS Max/11/11 Pro/11 Pro Max/12/12 Pro/13/13 Pro
+* iPad  -->
 
 ### Known bugs
-* The website is not responsible for small devises includes mobiles or tablets
+* Minor sizing issue in About page
+* Not mobile friendly
 
 ### Future Development
-* Developing it mobile friendly
-* Adding more job experience section
+* Fix the sizing issue
+* Make it mobile friendly
+* Add job experience section in About page
 

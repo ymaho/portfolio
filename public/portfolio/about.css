@@ -297,14 +297,14 @@ div.project1, div.project2, div.project3 {
     .title2 p {
         font-size: 50px;
         position: relative;
-        top: -480px;
+        top: -425px;
         left: 5%;
     }
 
     .background_color {
         height: 700px;
         position: relative;
-        top: -510px;
+        top: -450px;
     }
 
     .projects_wrapper {
@@ -318,7 +318,7 @@ div.project1, div.project2, div.project3 {
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        top: -950px;
+        top: -900px;
     }
 
     .project1 p, .project2 p, .project3 p {
@@ -337,7 +337,7 @@ div.project1, div.project2, div.project3 {
     .title3 p {
         font-size: 50px;
         position: relative;
-        top: -60px;
+        top: -50px;
         left: 5%;
     }
     
@@ -352,7 +352,7 @@ div.project1, div.project2, div.project3 {
         width: 200px;
         height: 250px;
         position: relative;
-        top: -50px;
+        top: -30px;
     }   
 
 }
@@ -363,6 +363,13 @@ div.project1, div.project2, div.project3 {
     /* section1 */
     li {
         font-size: 18px;
+    }
+
+    div .img-fluid {
+        z-index: 10000;
+        height: 620px;
+        width: 100%;
+        object-fit: cover;
     }
 
     .intro1 img {
@@ -460,6 +467,13 @@ div.project1, div.project2, div.project3 {
     /* section1 */
     li {
         font-size: 20px;
+    }
+
+    div .img-fluid {
+        z-index: 10000;
+        height: 620px;
+        width: 100%;
+        object-fit: cover;
     }
 
     .intro1 img {
