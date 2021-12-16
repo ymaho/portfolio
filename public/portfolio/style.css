@@ -124,8 +124,8 @@ container1 */
     text-decoration: none;
 } */
 
-/* Small devices (landscape phones, 500px and up) */
-@media (min-width: 500px) {  
+/* Small devices (landscape phones, 300px and up) */
+@media screen and (min-width: 300px) {  
     ul {
         padding-left: 0px;
     }

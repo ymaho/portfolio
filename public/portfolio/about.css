@@ -227,7 +227,7 @@ div.project1, div.project2, div.project3 {
 
 
 
-/* Small devices (landscape phones, 500px and up) */
+/* Small devices (landscape phones, 300px and up) */
 @media screen and (min-width: 300px) {  
     /* section1 */
     ul {
