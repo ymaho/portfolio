@@ -15,11 +15,9 @@ It is an on-going project that I have been working to showcase my techinal skill
 * iPad  -->
 
 ### Known bugs
-* Minor sizing issue in About page
-* Not mobile friendly
+* Minor sizing issue in About and Projects pages
 
 ### Future Development
 * Fix the sizing issue
-* Make it mobile friendly
-* Add job experience section in About page
+* Add more features such as job experience section in About page
 

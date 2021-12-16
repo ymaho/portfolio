@@ -1,7 +1,7 @@
 html, body {
     margin: 0; 
     padding: 0;
-    height: 2000px;
+    height: 500px;
     font-family: Didot, serif;
 }
 
@@ -332,6 +332,8 @@ div.project1, div.project2, div.project3 {
     .container3 {
         position: relative;
         top: -1050px;
+        height: 300px;
+        padding-bottom: 0px;
     }
     
     .title3 p {
@@ -346,6 +348,7 @@ div.project1, div.project2, div.project3 {
         top: 40px;
         display: flex;
         justify-content: center;
+        padding-bottom: 0px;
     }    
     
     .education_wrapper img{
@@ -447,7 +450,6 @@ div.project1, div.project2, div.project3 {
     }
     
     .education_wrapper {
-        height: 800px;
         position: relative;
         top: -30px;
         display: flex;
@@ -549,7 +551,6 @@ div.project1, div.project2, div.project3 {
     }
     
     .education_wrapper {
-        height: 800px;
         position: relative;
         top: -60px;
         display: flex;
@@ -611,13 +612,4 @@ div.project1, div.project2, div.project3 {
     .project1 img {
         width: 110px; 
     }
-    /* .project1 a {
-        position: relative;
-        top: 20px;
-    }
-
-    .project1 p {
-        position: relative;
-        top: 60px;
-    } */
 }
