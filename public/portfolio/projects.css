@@ -273,6 +273,7 @@ p.last_sentence3 {
 container1 */
     .container1 {
         height: 800px;
+        text-align: center;
     }
 
     .descriptions1 {
@@ -313,10 +314,11 @@ container1 */
         height: 800px;
         position: relative;
         top: 400px;
+        text-align: center;
     }
 
     .descriptions2 {
-        width: 300px;
+        width: 350px;
     }
 
     .descriptions2 p {
@@ -353,6 +355,7 @@ container1 */
         height: 800px;
         top: 580px;
         padding-bottom: 1000px;
+        text-align: center;
     }
 
     .descriptions3 {
