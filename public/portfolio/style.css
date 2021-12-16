@@ -3,11 +3,8 @@ html {
     -ms-text-size-adjust: 100%;
 }
 
-
-
-
 nav.pages {
-    z-index: 10000;
+    z-index: 1000;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -20,12 +17,13 @@ ul {
     overflow: hidden;
     text-decoration: none;
     font-family: Didot, serif;
-    margin-left: 5px;
+    margin-left: 15px;
     padding-top: 18px;
 }
   
 li {
     float: left;
+    padding-left: 5px;
 }
 
 li a.contact {
@@ -128,17 +126,20 @@ container1 */
 
 /* Small devices (landscape phones, 500px and up) */
 @media (min-width: 500px) {  
-    .pages {
-        font-size: 18px;
-    }
     ul {
-        padding-left: 15px;
+        padding-left: 0px;
     }
+
+    li {
+        font-size: 15px;
+    }
+
     li a.contact {
         padding-right: 15px;
         position: absolute;
         right: 0;
     }
+
     p {font-size: 25px;
         padding-left: 10px;
         padding-top: 300px;
@@ -156,17 +157,10 @@ container1 */
    
   /* Medium devices (tablets, 700px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 700px) {  
-    .pages {
-        font-size: 20px;
+    li {
+        font-size: 18px;
     }
-    ul {
-        padding-left: 30px;
-    }
-    li a.contact {
-        padding-right: 30px;
-        position: absolute;
-        right: 0;
-    }
+
     p {font-size: 30px;
         padding-left: 20px;
         padding-top: 330px;
@@ -184,7 +178,7 @@ container1 */
    
   /* Large devices (desktops, 900px and up) */
 @media (min-width: 900px) { 
-    .pages {
+    li {
         font-size: 20px;
     }
     p {font-size: 40px;
