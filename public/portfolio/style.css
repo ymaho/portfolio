@@ -198,9 +198,6 @@ container1 */
    
   /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-    .pages {
-        font-size: 20px;
-    }
     p {font-size: 45px;
         padding-left: 30px;
         padding-top: 360px;

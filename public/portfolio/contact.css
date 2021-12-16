@@ -1,11 +1,11 @@
-html, body {
-    margin: 0; 
-    padding: 0;
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
     font-family: Didot, serif;
 }
 
 nav.pages {
-    z-index: 10000;
+    z-index: 1000;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -24,6 +24,7 @@ ul {
   
 li {
     float: left;
+    padding-left: 5px;
 }
 
 li a.contact {
@@ -47,15 +48,19 @@ main section */
     width: auto;
     height: 500px;
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
+    font-family: Didot, serif;
+    position: relative;
+    top: -100px;
+}
+
+.title {
+    text-align: center;
+    position: relative;
+    top: 300px;
 }
 
 .title p {
     font-size: 30px;
-    margin-top: 70px;
-    position: relative;
-    top: 120px;
-    margin-bottom: 70px;
-    text-align: center;
     color: #FFFFFF;
     -webkit-text-stroke: 1px #54150D;
 }
@@ -70,12 +75,95 @@ main section */
 }
 
 .info1 a, .info2 a, .info3 a, .info4 a {
-    position: relative;
-    top: 80px;
     text-align: center;
     font-size: 30px;
-    color: #54150D;
-    text-decoration: none;
     display: block; 
-    margin: auto;
 }
+
+.info1 a:link, .info1 a:visited, 
+.info2 a:link, .info2 a:visited,
+.info3 a:link, .info3 a:visited,
+.info4 a:link, .info4 a:visited {
+    text-decoration: none;
+    color: #54150D;
+}
+
+@media (min-width: 500px) {  
+    ul {
+        padding-left: 0px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    li a.contact {
+        padding-right: 15px;
+        position: absolute;
+        right: 0;
+    }
+    
+    .title {
+        position: relative;
+        top: 320px;
+    }
+    
+    .title p {
+        font-size: 24px;
+    }
+    .info1 a, .info2 a, .info3 a, .info4 a {
+        font-size: 24px;
+    }
+}
+   
+  /* Medium devices (tablets, 700px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 700px) {  
+    li {
+        font-size: 18px;
+    }
+
+    .title {
+        position: relative;
+        top: 320px;
+    }
+    
+    .title p {
+        font-size: 24px;
+    }
+    .info1 a, .info2 a, .info3 a, .info4 a {
+        font-size: 24px;
+    }
+}
+   
+  /* Large devices (desktops, 900px and up) */
+@media (min-width: 900px) { 
+    li {
+        font-size: 20px;
+    }
+    .container1 {
+        width: auto;
+        height: 500px;
+        background-image: linear-gradient(#EEE6E5, #FFFFFF);
+        font-family: Didot, serif;
+        position: relative;
+        top: -100px;
+        }
+    
+        .title {
+            position: relative;
+            top: 300px;
+        }
+    
+        .title p {
+            font-size: 30px;
+        }
+
+        .info1 a, .info2 a, .info3 a, .info4 a {
+            font-size: 30px;
+        }
+}
+   
+  /* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {  
+none
+} */
