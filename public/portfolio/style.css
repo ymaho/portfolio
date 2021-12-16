@@ -1,7 +1,10 @@
-html, body {
-    margin: 0; 
-    padding: 0;
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
+
+
+
 
 nav.pages {
     z-index: 10000;
@@ -17,7 +20,7 @@ ul {
     overflow: hidden;
     text-decoration: none;
     font-family: Didot, serif;
-    margin-left: 15px;
+    margin-left: 5px;
     padding-top: 18px;
 }
   
@@ -122,3 +125,99 @@ container1 */
     color: #542B26;
     text-decoration: none;
 } */
+
+/* Small devices (landscape phones, 500px and up) */
+@media (min-width: 500px) {  
+    .pages {
+        font-size: 18px;
+    }
+    ul {
+        padding-left: 15px;
+    }
+    li a.contact {
+        padding-right: 15px;
+        position: absolute;
+        right: 0;
+    }
+    p {font-size: 25px;
+        padding-left: 10px;
+        padding-top: 300px;
+    } /*1rem = 16px*/
+    p.sub {
+        font-size: 13px;
+        /* position: absolute;
+        top: 200px; */
+    }
+    img.img-fluid.ihv {
+        height: 300px;
+        margin-bottom: 20px;
+    }
+}
+   
+  /* Medium devices (tablets, 700px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 700px) {  
+    .pages {
+        font-size: 20px;
+    }
+    ul {
+        padding-left: 30px;
+    }
+    li a.contact {
+        padding-right: 30px;
+        position: absolute;
+        right: 0;
+    }
+    p {font-size: 30px;
+        padding-left: 20px;
+        padding-top: 330px;
+    } /*1rem = 16px*/
+    p.sub {
+        font-size: 18px;
+        /* position: absolute;
+        top: 200px; */
+    }
+    img.img-fluid.ihv {
+        height: 350px;
+        margin-bottom: 20px;
+    }
+}
+   
+  /* Large devices (desktops, 900px and up) */
+@media (min-width: 900px) { 
+    .pages {
+        font-size: 20px;
+    }
+    p {font-size: 40px;
+        padding-left: 30px;
+        padding-top: 340px;
+    } /*1rem = 16px*/
+    p.sub {
+        font-size: 20px;
+        /* position: absolute;
+        top: 200px; */
+    }
+    img.img-fluid.ihv {
+        height: 400px;
+        margin-bottom: 20px;
+    }
+}
+   
+  /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .pages {
+        font-size: 20px;
+    }
+    p {font-size: 45px;
+        padding-left: 30px;
+        padding-top: 360px;
+    } /*1rem = 16px*/
+    p.sub {
+        font-size: 20px;
+        /* position: absolute;
+        top: 200px; */
+    }   
+    img.img-fluid.ihv {
+        height: 450px;
+        margin-bottom: 20px;
+    }
+}
