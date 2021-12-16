@@ -507,8 +507,64 @@ div.project1, div.project2, div.project3 {
 
 
     /* section2 */
+    .title2 p {
+        font-size: 75px;
+        position: relative;
+        top: -570px;
+        left: 5%;
+    }
 
+    .background_color {
+        position: relative;
+        top: -610px;
+    }
+
+    .projects_wrapper {
+        width: 100%;
+        position: relative;
+        top: -500px;
+    }
+
+    div.project1, div.project2, div.project3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: -800px;
+    }
     
+
+    /* section3 */
+
+    .container3 {
+        position: relative;
+        top: -1230px;
+    }
+    
+    .title3 p {
+        font-size: 75px;
+        position: relative;
+        top: -70px;
+        left: 5%;
+    }
+    
+    .education_wrapper {
+        height: 800px;
+        position: relative;
+        top: -60px;
+        display: flex;
+        justify-content: center;
+    }    
+    .education_wrapper img{
+        width: 450px;
+        height: 450px;
+    }   
+
+}
+
+  /* Extra Large devices (desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+          
     .title2 p {
         font-size: 75px;
         position: relative;
@@ -552,37 +608,16 @@ div.project1, div.project2, div.project3 {
         position: relative;
         top: 15px;
     }
-    
-
-    /* section3 */
-
-    .container3 {
-        position: relative;
-        top: -1230px;
+    .project1 img {
+        width: 110px; 
     }
-    
-    .title3 p {
-        font-size: 75px;
+    /* .project1 a {
         position: relative;
-        top: -70px;
-        left: 5%;
+        top: 20px;
     }
-    
-    .education_wrapper {
-        height: 800px;
+
+    .project1 p {
         position: relative;
-        top: -60px;
-        display: flex;
-        justify-content: center;
-    }    
-    .education_wrapper img{
-        width: 450px;
-        height: 450px;
-    }   
-
-}
-
-  /* Extra Large devices (desktops, 1200px and up) */
-  @media (min-width: 1200px) {  
-
+        top: 60px;
+    } */
 }
