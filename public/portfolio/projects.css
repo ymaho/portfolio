@@ -6,7 +6,7 @@ html, body {
 }
 
 nav.pages {
-    z-index: 10000;
+    z-index: 1000;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -25,6 +25,7 @@ ul {
   
 li {
     float: left;
+    padding-left: 5px;
 }
 
 li a.contact {
@@ -37,7 +38,6 @@ li a:link, li a:visited{
     color: #542B26;
     text-decoration: none;
 }
-
 
 /* Main page
 container1
@@ -298,7 +298,7 @@ container1 */
         width: 150px;
         height: 150px;
         top: -60px;
-        left: -52%;
+        left: -49%;
     }
 
     p.last_sentence1 {
@@ -318,14 +318,15 @@ container1 */
     }
 
     .descriptions2 {
-        width: 350px;
+        width: 320px;
+        left: 2%;
     }
 
     .descriptions2 p {
         font-size: 30px;
         position: relative;
         top: -80px;
-        left: -20%;
+        left: -15%;
     }
 
     .sub2 p {
@@ -339,7 +340,7 @@ container1 */
         width: 150px;
         height: 150px;
         top: -60px;
-        left: -52%;
+        left: -49%;
     }
 
     p.last_sentence2 {
@@ -367,7 +368,7 @@ container1 */
         font-size: 30px;
         position: relative;
         top: -80px;
-        left: -20%;
+        left: -15%;
     }
 
     .sub3 p {
@@ -381,7 +382,7 @@ container1 */
         width: 150px;
         height: 150px;
         top: -60px;
-        left: -52%;
+        left: -49%;
     }
 
     p.last_sentence3 {
@@ -588,6 +589,7 @@ container1 */
         margin-top: 0px;
         top: 300px;
         padding-bottom: 200px;
+        text-align: left;
     }
         
     .descriptions3 {
