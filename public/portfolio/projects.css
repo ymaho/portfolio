@@ -175,7 +175,7 @@ p.last_sentence2 {
 
 .pro2 {
     position: relative;
-    top: 105px;
+    top: 90px;
 }
 
 
@@ -277,7 +277,8 @@ container1 */
     }
 
     .descriptions1 {
-        width: 300px;
+        width: 320px;
+        left: 2%;
     }
 
     .descriptions1 p {
@@ -349,6 +350,10 @@ container1 */
         left: 6%;
         top: 110px;
     }    
+    .pro2 {
+        position: relative;
+        top: 310px;
+    }
 /*     
     container3 */
     
@@ -493,6 +498,10 @@ container1 */
         left: 5%;
         top: 260px;
     }  
+    .pro3 {
+        position: relative;
+        top: 480px;
+    }
 
 }
    
@@ -507,6 +516,7 @@ container1 */
         height: 450px;
         margin-top: 0px;
         top: 100px;
+        text-align: left;
     }
     
     .descriptions1 {
@@ -548,6 +558,7 @@ container1 */
         height: 450px;
         margin-top: 0px;
         top: 200px;
+        text-align: left;
     }
     
     .descriptions2 {
@@ -581,7 +592,10 @@ container1 */
         font-size: 18px;
         width: 800px;
     }   
-
+    .pro2 {
+        position: relative;
+        top: 90px;
+    }
     /*         
     container3 */
     .container3 {
@@ -623,6 +637,10 @@ container1 */
         font-size: 18px;
         width: 800px;
     }   
+    .pro3 {
+        position: relative;
+        top: 500px;
+    }
 
 }
    
