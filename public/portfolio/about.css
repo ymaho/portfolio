@@ -318,7 +318,8 @@ div.project1, div.project2, div.project3 {
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        top: -900px;
+        top: -875px;
+        padding-bottom: 60px;
     }
 
     .project1 p, .project2 p, .project3 p {
