@@ -1,63 +1,65 @@
-.fadeInAndOut {
+html, body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg {
     width: 100%;
-    height: 20vh;
-    opacity: 0;
-    animation-delay: 1s;
-    -webkit-animation: arrowInOut 4s linear forwards;
-    animation: arrowInOut 4s linear forwards;
-}
-
-@-webkit-keyframes arrowInOut {
-    0%,100% {opacity: 0;}
-    30%, 80% {opacity: 1;}
-}
-
-@keyframes arrowInOut {
-    0%,100% {opacity: 0;}
-    30%, 80% {opacity: 1;}
-}
-
-h1 {
+    height: 100%;
     position: absolute;
-    top: 32%;
-    left: 37%;
-    font-size: 90px;
-    color: #57280C;
-}
-
-h2 {
-    font-size: 50px;
-    color: #57280C;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(#CCA98F, #FFFFFF);
     text-align: center;
-    margin-top: 180px;
-} 
-
-.justToFadeIn {
-    height: 100px;
-    animation: whiteToColor;
-    animation-duration: 5.5s; 
-    -webkit-animation: whiteToColor;  
-    -webkit-animation-duration: 5.5s; 
-}   
-
-@keyframes whiteToColor {  
-    0% {opacity:0;}
-    70% {opacity:0;}
-    100% {opacity:1;}
 }
 
-@-webkit-keyframes whiteToColor {  
-    0% {opacity:0;}
-    70% {opacity:0;}
-    100% {opacity:1;}
+ul {
+    position: relative;
+    top: 120px;
+    font-size: 30px;
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+    line-height: 1em;
+}
+
+
+
+img {
+    width: 300px;
+    position: relative;
+    top: 180px;
+    margin-bottom: 40px;
 }
   
-.list {
-    text-align: center;
-    font-size: 35px;
+a:link, a:visited {
+    color: #D58C55;
+    text-decoration: none;
 }
 
-a:link, a:visited {
-    color: #997F6B;
-    text-decoration: none;
+
+
+
+/* Small devices (landscape phones, 300px and up) */
+@media screen and (min-width: 300px) {  
+    img {
+        width: 250px;
+        top: 35%;
+    }
+    ul {
+        top: 25%;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 700px) {  
+    img {
+        width: 300px;
+        top: 180px;
+    }
+    ul {
+        top: 120px;
+        font-size: 30px;
+    }
 }
