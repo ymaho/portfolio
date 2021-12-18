@@ -16,7 +16,7 @@ html, body {
 
 ul {
     position: relative;
-    top: 120px;
+    top: 150px;
     font-size: 30px;
     text-align: center;
     list-style: none;
@@ -48,7 +48,7 @@ a:link, a:visited {
         top: 35%;
     }
     ul {
-        top: 25%;
+        top: 30%;
         font-size: 25px;
     }
 }
@@ -59,7 +59,7 @@ a:link, a:visited {
         top: 180px;
     }
     ul {
-        top: 120px;
+        top: 150px;
         font-size: 30px;
     }
 }
