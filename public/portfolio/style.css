@@ -141,7 +141,7 @@ container1 */
     }
 
     p {font-size: 25px;
-        padding-left: 50px;
+        padding-left: 10%;
         padding-top: 150px;
     } /*1rem = 16px*/
     p.sub {
