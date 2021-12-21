@@ -29,7 +29,7 @@ li {
 }
 
 li a.contact {
-    padding-right: 30px;
+    padding-right: 15px;
     position: absolute;
     right: 0;
 }
@@ -264,11 +264,6 @@ p.last_sentence3 {
         font-size: 15px;
     }
 
-    li a.contact {
-        padding-right: 15px;
-        position: absolute;
-        right: 0;
-    }
 /* 
 container1 */
     .container1 {
