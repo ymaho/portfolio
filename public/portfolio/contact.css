@@ -1,4 +1,6 @@
 html {
+    margin: 0; 
+    padding: 0;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     font-family: Didot, serif;
@@ -18,17 +20,17 @@ ul {
     overflow: hidden;
     text-decoration: none;
     font-family: Didot, serif;
-    margin-left: 15px;
     padding-top: 18px;
+    margin-left: -30px;
 }
   
 li {
     float: left;
-    padding-left: 5px;
+    padding-left: 20px;
 }
 
 li a.contact {
-    padding-right: 30px;
+    margin-right: 30px;
     position: absolute;
     right: 0;
 }
@@ -91,18 +93,8 @@ main section */
 
 /* Small devices (landscape phones, 300px and up) */
 @media screen and (min-width: 300px) {  
-    ul {
-        padding-left: 0px;
-    }
-
     li {
         font-size: 15px;
-    }
-
-    li a.contact {
-        padding-right: 15px;
-        position: absolute;
-        right: 0;
     }
 
     .title {
@@ -149,20 +141,20 @@ main section */
         font-family: Didot, serif;
         position: relative;
         top: -100px;
-        }
-    
-        .title {
-            position: relative;
-            top: 300px;
-        }
-    
-        .title p {
-            font-size: 30px;
-        }
+    }
 
-        .info1 a, .info2 a, .info3 a, .info4 a {
-            font-size: 30px;
-        }
+    .title {
+        position: relative;
+        top: 300px;
+    }
+
+    .title p {
+        font-size: 30px;
+    }
+
+    .info1 a, .info2 a, .info3 a, .info4 a {
+        font-size: 30px;
+    }
 }
    
   /* Extra large devices (large desktops, 1200px and up) */

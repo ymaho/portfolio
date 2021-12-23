@@ -19,17 +19,17 @@ ul {
     overflow: hidden;
     text-decoration: none;
     font-family: Didot, serif;
-    margin-left: 15px;
     padding-top: 18px;
+    margin-left: -30px;
 }
   
 li {
     float: left;
-    padding-left: 5px;
+    padding-left: 20px;
 }
 
 li a.contact {
-    padding-right: 30px;
+    margin-right: 30px;
     position: absolute;
     right: 0;
 }
@@ -51,6 +51,7 @@ container1 */
     margin-top: 0px;
     top: 100px;
     padding-bottom: 40px;
+    width: 100%;
 }
 
 .descriptions1 {
@@ -117,6 +118,7 @@ container2 */
     margin-top: 0px;
     top: 200px;
     padding-bottom: 40px;
+    width: 100%;
 }
 
 .descriptions2 {
@@ -189,6 +191,7 @@ container3 */
     margin-top: 0px;
     top: 290px;
     padding-bottom: 40px;
+    width: 100%;
 }
 
 .descriptions3 {
@@ -253,22 +256,12 @@ p.last_sentence3 {
 
 
 
-
 /* Small devices (landscape phones, 300px and up) */
 @media screen and (min-width: 300px) {  
-    ul {
-        padding-left: 0px;
-    }
-
     li {
         font-size: 15px;
     }
 
-    li a.contact {
-        padding-right: 15px;
-        position: absolute;
-        right: 0;
-    }
 
 /* 
 container1 */
@@ -649,3 +642,4 @@ container1 */
 /* @media (min-width: 1200px) {  
 none
 } */
+
