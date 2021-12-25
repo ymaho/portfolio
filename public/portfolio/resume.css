@@ -12,15 +12,6 @@ nav.pages {
     font-size: 20px;
 }
 
-ul {
-    list-style-type: none;
-    overflow: hidden;
-    text-decoration: none;
-    font-family: Didot, serif;
-    padding-top: 18px;
-    margin-left: -30px;
-}
-  
 li {
     float: left;
     padding-left: 20px;
