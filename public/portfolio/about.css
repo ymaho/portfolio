@@ -214,16 +214,20 @@ div.project1, div.project2, div.project3 {
     display: inline-block; 
     width: 100%;
     position: relative;
-    top: 50px;
+    top: 30px;
 }
 
 .education_wrapper img{
-    width: 750px;
+    width: 845px;
     height: 350px;
     display: block;
     margin-bottom: 140px;
     margin-left: auto;
     margin-right: auto;
+}
+.education_wrapper img.smaller {
+    width: 615px;
+    height: 350px;
 }
 
 
@@ -367,7 +371,10 @@ div.project1, div.project2, div.project3 {
     li {
         font-size: 18px;
     }
-
+    li a.contact {
+        position: absolute;
+        right: 3%;
+    }
     div .img-fluid {
         z-index: 10000;
         height: 620px;
