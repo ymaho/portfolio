@@ -29,16 +29,15 @@ li {
 }
 
 li a.contact {
+    margin-right: 30px;
     position: absolute;
-    right: 5%;
+    right: 0;
 }
 
 li a:link, li a:visited{
     color: #542B26;
     text-decoration: none;
 }
-
-
 
 /* main page */
 body .container-fluid {
@@ -108,7 +107,7 @@ h4 {
     font-size: 80px;
     position: relative;
     top: -670px;
-    left: 10%;
+    left: 5%;
     margin-bottom: 0px;
     z-index: 100;
 }
@@ -205,35 +204,49 @@ div.project1, div.project2, div.project3 {
     font-size: 80px;
     position: relative;
     top: -80px;
-    left: 10%;
-    margin-bottom: 0px;
-    z-index: 100;
+    left: 5%;
 }
 
 .education_wrapper {
     display: inline-block; 
     width: 100%;
     position: relative;
-    top: 30px;
+    top: 50px;
 }
 
 .education_wrapper img{
-    width: 845px;
-    height: 350px;
+    width: 450px;
+    height: 250px;
     display: block;
     margin-bottom: 140px;
     margin-left: auto;
     margin-right: auto;
 }
-.education_wrapper img.smaller {
-    width: 615px;
-    height: 350px;
+
+.education_wrapper img.wider {
+    width: 550px;
+    height: 250px;
+    display: block;
 }
 
 
+/* container4
+container4
+container4 */
 
+.container4 {
+    height: 450px;
+    position: relative;
+    top: -520px;
+    background-image: linear-gradient(#EEE6E5, #FFFFFF);
+}
 
-
+.title4 p {
+    font-size: 75px;
+    position: relative;
+    top: -75px;
+    left: 5%;
+}
 
 
 
@@ -299,7 +312,6 @@ div.project1, div.project2, div.project3 {
         font-size: 50px;
         position: relative;
         top: -425px;
-        left: 5%;
     }
 
     .background_color {
@@ -342,25 +354,16 @@ div.project1, div.project2, div.project3 {
         font-size: 50px;
         position: relative;
         top: -50px;
-        left: 5%;
     }
 
     .education_wrapper img{
-        width: 315px;
-        height: 175px;
+        width: 270px;
+        height: 150px;
     }
 
     .education_wrapper img.wider {
-        width: 385px;
-        height: 175px;
-    }
-    .education_wrapper img{
-        width: 420px;
-        height: 196px;
-    }
-    .education_wrapper img.smaller {
-        width: 350px;
-        height: 196px;
+        width: 330px;
+        height: 150px;
     }
 }
    
@@ -371,10 +374,7 @@ div.project1, div.project2, div.project3 {
     li {
         font-size: 18px;
     }
-    li a.contact {
-        position: absolute;
-        right: 3%;
-    }
+
     div .img-fluid {
         z-index: 10000;
         height: 620px;
@@ -419,7 +419,6 @@ div.project1, div.project2, div.project3 {
         font-size: 75px;
         position: relative;
         top: -570px;
-        left: 5%;
     }
 
     .background_color {
@@ -453,7 +452,6 @@ div.project1, div.project2, div.project3 {
         font-size: 75px;
         position: relative;
         top: -70px;
-        left: 5%;
     }
 
     .education_wrapper {
@@ -461,14 +459,15 @@ div.project1, div.project2, div.project3 {
     }
 
     .education_wrapper img{
-        width: 600px;
-        height: 280px;
-    }
-    .education_wrapper img.smaller {
-        width: 500px;
-        height: 280px;
+        width: 450px;
+        height: 250px;
     }
     
+    .education_wrapper img.wider {
+        width: 550px;
+        height: 250px;
+    }
+
 }
    
  
@@ -490,14 +489,12 @@ div.project1, div.project2, div.project3 {
     .intro1 img {
         position: relative;
         top: -380px;
-        left: 5%;
         width: 500px;
     }
 
     .intro2 p {
         position: relative;
         top: -380px;
-        left: 5%;
         font-size: 22px;
     }
 
@@ -522,7 +519,6 @@ div.project1, div.project2, div.project3 {
         font-size: 75px;
         position: relative;
         top: -570px;
-        left: 5%;
     }
 
     .background_color {
@@ -556,7 +552,6 @@ div.project1, div.project2, div.project3 {
         font-size: 75px;
         position: relative;
         top: -70px;
-        left: 5%;
     }
 
 }
@@ -567,7 +562,6 @@ div.project1, div.project2, div.project3 {
         font-size: 75px;
         position: relative;
         top: -610px;
-        left: 5%;
     }
 
     .background_color {

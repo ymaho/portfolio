@@ -86,16 +86,17 @@ p.detail {
         width: 95%;
     }
     .title p {
-        font-size: 40px;
+        font-size: 32px;
     }
     
     .sub p {
-        font-size: 20px;
-        line-height: 20pt;
+        font-size: 15px;
+        line-height: 17pt;
+        margin-bottom: 30px;
     }
     
     p.detail {
-        font-size: 18px;
+        font-size: 12px;
     }
 }
    
