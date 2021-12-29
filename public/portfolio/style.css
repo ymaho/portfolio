@@ -34,6 +34,11 @@ li a.contact {
 li a:link, li a:visited{
     color: #542B26;
     text-decoration: none;
+    opacity: 1;
+}
+
+li a:hover {
+    opacity: 0.5;
 }
 
 
@@ -73,53 +78,6 @@ p.sub {
     padding-top: 0px;
     font-size: 24px;
 }
-
-
-
-
-
-/* Main page
-container1
-container1
-container1 */
-
-/* .container_2 {
-    background-image: linear-gradient(#EEE6E5, #FFFFFF);
-    height: 450px;
-    position: relative;
-    margin-top: 0px;
-    top: 100px;
-    padding-bottom: 40px;
-} */
-/* 
-.descriptions2 {
-    display:flex;
-    flex-direction: column;
-    position: relative;
-    top: -300px;
-}
-
-.descriptions2 p {
-    font-size: 60px;
-    margin-bottom: 0px;
-    font-family: Didot, serif;
-    color: #54150D;
-    position: relative;
-    left: 15%;
-}
-
-.descriptions2 a {
-    font-size: 40px;
-    margin-top: 0px;
-    color: #54150D;
-    font-family: Didot, serif;
-    text-align: center;
-}
-
-.descriptions2 a:link, .descriptions2 a:visited {
-    color: #542B26;
-    text-decoration: none;
-} */
 
 /* Small devices (landscape phones, 300px and up) */
 @media screen and (min-width: 300px) {  
