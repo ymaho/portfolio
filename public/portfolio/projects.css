@@ -48,7 +48,7 @@ projects
 projects */
 
 .projects_wrapper {
-    background-image: linear-gradient(#EEE6E5, #FFFFFF);
+    background-image: linear-gradient(#EEE6E5, #FFFFFF, #EEE6E5);
     position: absolute;
     width: 100%;
     top: 0px;
