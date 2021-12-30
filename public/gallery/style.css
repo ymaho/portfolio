@@ -1,244 +1,60 @@
 body {
-    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
-}
-
-.navBarBox {
-    background-color: rgba(255, 255, 255, 0.3);
-    object-position: center top;
-    position:   absolute;
-    top:        0px;
-    left:       0px;
-    right: 0px;
-    height: 45px;
-}
-
-.navBar {
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-a:link, a:visited{
+    font-family: font-family Didot, serif;
     color: #FFFFFF;
-    opacity: 1;
-    margin: 0;
-    text-decoration: none;
+    height: auto;
 }
 
-.contactBox {
-    position: absolute;
-    right: 2%;
-    top: 8%;
-    border: 2px solid;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    padding-right: 7px;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.2);
-}
 
-h1 {
+
+
+/* maintenance
+maintenance
+maintenance */
+
+.img_container {
     text-align: center;
-    margin-top: 270px;
-    margin-bottom: 0px;
-    font-size: 100px;
-    color: #FFFFFF;
 }
 
-h2 {
-    position: absolute;
-    top: 200px;
-    left: 400px;
-    font-size: 100px;
-    color: #FFFFFF;
+img {
+    width: 600px;
 }
 
-.fadeInAndOut {
-    width: 100%;
-    height: 20vh;
-    opacity: 0;
-    animation-delay: 1s;
-    -webkit-animation: arrowInOut 5s linear forwards;
-    animation: arrowInOut 5s linear forwards;
-}
-
-@-webkit-keyframes arrowInOut {
-    0%,100% {opacity: 0;}
-    30%, 80% {opacity: 1;}
-}
-
-@keyframes arrowInOut {
-    0%,100% {opacity: 0;}
-    30%, 80% {opacity: 1;}
-}
-
-.justToFadeIn {
-    height: 100px;
-    animation: whiteToColor;
-    animation-duration: 7s; 
-    -webkit-animation: whiteToColor;  
-    -webkit-animation-duration: 7s; 
-}   
-
-@keyframes whiteToColor {  
-    0% {opacity:0;}
-    70% {opacity:0;}
-    100% {opacity:1;}
-}
-
-@-webkit-keyframes whiteToColor {  
-    0% {opacity:0;}
-    70% {opacity:0;}
-    100% {opacity:1;}
-}
-
-
-
-/* about */
-body {
-    background-color: #AB9B91;
-}
-
-.intro {
-    color: #FFFFFF;
-    display: flex;
-    flex-flow: row wrap;
-}
-
-name {
-    color: #FFFFFF;
-    font-size: 60px;
-    position: absolute;
-    top: 210px;
-    left: 170px;
-}
-
-mininfo {
-    color: #FFFFFF;
+.text_container {
+    position: relative;
+    top: -250px;
+    left: 50%;
     font-size: 30px;
-    position: absolute;
-    top: 290px;
-    left: 170px;
 }
 
-.profilepic {
-    position: absolute;
-    top: 130px;
-    right: 170px;
-    width: 400px;
+/* Small devices (landscape phones, 300px and up) */
+@media screen and (min-width: 300px) { 
+    img {
+        width: 400px;
+        position: relative;
+        top: 130px;
+    }
+    
+    .text_container {
+        top: -20px;
+        font-size: 20px;
+    }
 }
-
-.moveRightToCenter { 
-    position: relative;
-    animation: rightToCenter 3s;
-}
-
-@keyframes rightToCenter {
-    from {right: -500px;}
-    to {right: 0px;}
-}
-
-#fasterMoveFromRight {
-    animation: rightToCenter 2s;
-}
-
-.moveLeftToCenter { 
-    position: relative;
-    animation: LeftToCenter 3s;
-}
-
-
-@keyframes LeftToCenter {
-    from {left: -500px;}
-    to {left: 0px;}
-}
-
-#fasterMoveFromLeft {
-    animation: LeftToCenter 2s;
-}
-
-.shortSentenses {
-    font-size: 30px; 
-    color: #4D321F; 
-    padding-left: 20px; 
-    position: absolute; 
-    top: 600px;
-}
-
-p {
-    color: brown;
-    font-size: 20px;
-    float: left;
-}
-.projects{
-    width: 160px;
-    height: 65px;
-    position: absolute;
-    top: 390px;
-    left: 180px;
-    text-indent: 45px;
-    background-color: #FFFFFF;
-}
-
-.learn_more{
-    width: 160px;
-    height: 65px;
-    position: absolute;
-    top: 390px;
-    left: 400px;
-    text-indent: 30px;
-    background-color: #FFFFFF;
-}
-
-.skills_container {
-    height: 700px;
-    background-color: aqua;
-    display: block;
-    position: relative; 
-    top: 600px;
-    /* display: flex;
-    align-items: center; */
-}
-
-.skills {
-    position: relative;
-    top: 600px;
-    margin-left: 250px;
-    font-size: 30px;
-    color: #FFFFFF;
-}
-
-.skills_info {
-    position: relative;
-    top: 670px;
-    margin-top: 0px;
-    margin-left: 250px;
-    font-size: 37px;
-    color: #FFFFFF;
-}
-
-.nontech_skills {
-    position: absolute;
-    top: 690px;
-    font-size: 30px;
-    color: #FFFFFF;
-    margin-left: 740px;
-    /* height: 500px; */
-}
-
-.nontech_skills_info {
-    position: absolute;
-    top: 750px;
-    left: 750px;
-    font-size: 20px;
-    color: #FFFFFF;
-}
-
-.border_line {
-    border-left: 2px solid #FFFFFF;   
-    height: 450px;
-    position: absolute;
-    top: 650px;
-    left: 700px;
+   
+  /* Medium devices (tablets, 700px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 700px) {  
+    .img_container {
+        text-align: center;
+    }
+    
+    img {
+        width: 600px;
+        top: 0px;
+    }
+    
+    .text_container {
+        top: -250px;
+        left: 50%;
+        font-size: 30px;
+    }
 }
 
