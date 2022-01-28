@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     height: 500px;
     font-family: Didot, serif;
+    /* width: 100%; */
 }
 
 nav.pages {
@@ -46,83 +47,111 @@ li a:hover {
 
 
 /* main page */
-body .container-fluid {
+.container1 {
     position: relative;
     top: 0;
     padding: 0;
-}
-
-div .img-fluid {
-    z-index: 10000;
     height: 620px;
     width: 100%;
-    object-fit: cover;
+    background-image: linear-gradient(#EEE6E5, #FFFFFF);
 }
 
 .intro1 img {
     position: relative;
-    top: -400px;
     left: 8%;
-    width: 580px;
-
+    top: 320px;
+    width: 40%;
+    height: 100px;
     z-index: 100;
     /* ^^makes text over the image */
 }
 
 .intro2 p {
     position: relative;
-    top: -400px;
     left: 8%;
-    z-index: 100;
-    color: #EEE6E5;
+    top: 325px;
+    color: #54150D;
     font-size: 25px;
     padding-left: 5px;
-    border-left: 3px solid #EEE6E5;
+    border-left: 3px solid #54150D;
+    z-index: 100;
 }
 
 .skills {
     position: relative;
-    top: -745px;
     text-align: right;
     padding-right: 50px;
 }
 
 h4 {
-    color: #FFFFFF;
+    color: #54150D;
     padding: 0px;
     margin: 0px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .skills p {
     font-size: 30px;
     padding: 0px;
     margin: -5px;
-    color: #FFFFFF;
+    color: #54150D;
 }
 
-/* container 2  */
-/* container 2  */
-/* container 2  */
+/* container2
+container2
+container2 */
 
-/* .container2 {
+.container2 {
+    height: 450px;
     width: 100%;
-} */
+    position: relative;
+    top: 200px;
+    background-image: linear-gradient(#EEE6E5, #FFFFFF);
+}
 
 .title2 p {
     font-size: 80px;
     position: relative;
-    top: -670px;
+    top: -80px;
     left: 5%;
+    color: #54150D;
+}
+
+.background_wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.background_wrapper p {
+    font-size: 35px;
+    color: #54150D;
+    position: relative;
+    text-align: center;
+    
+}
+
+
+/* container 3  */
+/* container 3  */
+/* container 3  */
+
+.title3 p {
+    font-size: 80px;
+    position: relative;
+    left: 5%;
+    top: 340px;
     margin-bottom: 0px;
     z-index: 100;
+    color: #54150D;
 }
 
 .background_color {
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
-    height: 450px;
+    height: 500px;
+    top: 300px;
     position: relative;
-    top: -710px;
 }
 
 .projects_wrapper {
@@ -132,17 +161,16 @@ h4 {
 }
 
 div.project1, div.project2, div.project3 {
-    width: 310px; 
+    width: 20%; 
     height: 400px;
-    /* margin: 30px; */
-    margin-bottom: 50px;
     position: relative;
-    top: -1125px;
+    top: -140px;
+    margin: 50px;
 }
 
 .project1 img, .project2 img, .project3 img {
     padding-top: 40px;
-    width: 110px; 
+    width: 40%; 
     display:block;
     
     margin-left:auto;
@@ -151,15 +179,15 @@ div.project1, div.project2, div.project3 {
 }
 
 .project1 img {
-    width: 120px; 
+    width: 45%; 
 }
 
 .project1 a, .project2 a, .project3 a{
     position: relative;
-    top: -5px;
+    /* top: -5px; */
     text-align: center;
     font-size: 35px;
-    color: #542B26;
+    color: #54150D;
     text-decoration: none;
     display: block; 
     margin: auto;
@@ -167,15 +195,15 @@ div.project1, div.project2, div.project3 {
 
 .project1 a {
     position: relative;
-    top: 10px;
+    /* top: 10px; */
 }
 
 .project1 p, .project2 p, .project3 p {
     position: relative;
     text-align: center;
-    top: 10px;
+    /* top: 10px; */
     font-size: 20px;
-    color: #542B26;
+    color: #54150D;
     text-decoration: none;
     display: block; 
     margin: auto;
@@ -185,7 +213,7 @@ div.project1, div.project2, div.project3 {
 
 .project1 p {
     position: relative;
-    top: 45px;
+    /* top: 45px; */
 }
 
 .projects a:link, .projects a:visited{
@@ -196,32 +224,32 @@ div.project1, div.project2, div.project3 {
     
 
 
-/* container 3  */
-/* container 3  */
-/* container 3  */
-.container3 {
-    height: 450px;
+/* container 4  */
+/* container 4  */
+/* container 4  */
+.container4 {
+    height: 1000px;
     position: relative;
-    top: -1050px;
+    top: -30px;
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
 }
 
-.title3 p {
+.title4 p {
     font-size: 80px;
     position: relative;
-    top: -80px;
     left: 5%;
+    top: -80px;
+    color: #54150D;
 }
 
 .education_wrapper {
     display: inline-block; 
     width: 100%;
     position: relative;
-    top: 50px;
 }
 
 .education_wrapper img{
-    width: 450px;
+    width: 50%;
     height: 250px;
     display: block;
     margin-bottom: 140px;
@@ -230,63 +258,59 @@ div.project1, div.project2, div.project3 {
 }
 
 .education_wrapper img.wider {
-    width: 550px;
+    width: 50%;
     height: 250px;
     display: block;
 }
 
 
-/* container4
-container4
-container4 */
+/* container5
+container5
+container5 */
 
-.container4 {
-    height: 450px;
+.container5 {
+    height: 600px;
     position: relative;
-    top: -520px;
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
-    padding-bottom: 500px;
 }
 
-.container4 p.title4 {
+.container5 p.title5 {
     font-size: 75px;
     position: relative;
-    top: -75px;
     left: 5%;
+    top: -70px;
+    color: #54150D;
+}
+
+.skills_wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
 }
 
 .skills_wrapper p {
     font-size: 35px;
     line-height: 30pt;
-    position: relative;
-    top: -80px;
-    left: 17%;
     color: #54150D;
-    width: max-content;
-    margin-left: 0ex;
-    margin-right: 0ex;
+    width: 400px;
+    text-align: center;
 }
 
 .skills_wrapper p:hover {
     opacity: 0.5;
 }
 
-.skill {
-    display: flex;
-}
-
 p.hide1, p.hide2, p.hide3, p.hide4, p.hide5, p.hide6, p.hide7 {
     display: none;
-    width: 600px;
     position: relative;
-    left: 22%;
     font-size: 25px;
 }
       
-p.genskill1:hover + .hide1, p.genskill2:hover + .hide2,
-p.genskill3:hover + .hide3, p.genskill4:hover + .hide4,
-p.genskill5:hover + .hide5, p.genskill6:hover + .hide6,
-p.genskill7:hover + .hide7 {
+p.genskill1:hover + p.hide1, p.genskill2:hover + p.hide2,
+p.genskill3:hover + p.hide3, p.genskill4:hover + p.hide4,
+p.genskill5:hover + p.hide5, p.genskill6:hover + p.hide6,
+p.genskill7:hover + p.hide7 {
     display: block;
     color: #A12818;
     -webkit-animation: fadeIn 2s;
@@ -301,445 +325,4 @@ p.genskill7:hover + .hide7 {
 @keyframes fadeIn {
     from { opacity: 0; }
       to { opacity: 1; }
-}
-
-
-/* Small devices (landscape phones, 300px and up) */
-@media screen and (min-width: 300px) {  
-    /* section1 */
-    li {
-        font-size: 15px;
-    }
-
-    div .img-fluid {
-        z-index: 10000;
-        width: 100%;
-        height: 750px;
-        object-fit: cover;
-    }
-
-    .intro1 img {
-        position: relative;
-        top: -410px;
-        left: 3%;
-        width: 200px;
-    }
-
-    .intro2 p {
-        position: relative;
-        top: -410px;
-        left: 3%;
-        z-index: 100;
-        color: #EEE6E5;
-        font-size: 9px;
-        padding-left: 5px;
-        border-left: 3px solid #EEE6E5;
-    }
-
-    .skills {
-        position: relative;
-        top: -620px;
-        text-align: right;
-        padding-right: 3px;
-    }
-
-    h4 {
-        color: #FFFFFF;
-        padding: 0px;
-        margin: 0px;
-        font-size: 12px;
-    }
-    
-    .skills p {
-        font-size: 20px;
-        padding: 0px;
-        margin: 3px;
-        color: #FFFFFF;
-    }
-
-
-    /* section2 */
-
-    
-    .title2 p {
-        font-size: 50px;
-        position: relative;
-        top: -425px;
-    }
-
-    .background_color {
-        height: 700px;
-        position: relative;
-        top: -450px;
-    }
-
-    .projects_wrapper {
-        width: 100%;
-        display: block;
-        position: relative;
-        top: -250px;
-    }
-
-    div.project1, div.project2, div.project3 {
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        top: -875px;
-        padding-bottom: 60px;
-    }
-
-    .project1 p, .project2 p, .project3 p {
-        text-align: center;
-    }
-
-
-    /* section3 */
-
-
-    .container3 {
-        position: relative;
-        top: -1050px;
-        height: 300px;
-        padding-bottom: 0px;
-    }
-    
-    .title3 p {
-        font-size: 50px;
-        position: relative;
-        top: -50px;
-    }
-
-    .education_wrapper img{
-        width: 270px;
-        height: 150px;
-    }
-
-    .education_wrapper img.wider {
-        width: 330px;
-        height: 150px;
-    }
-
-    /* container4 */
-
-
-    .container4 {
-        height: 550px;
-        top: -510px;
-    }
-
-    .container4 p.title4 {
-        font-size: 50px;
-        top: -50px;
-    }
-
-    .skills_wrapper p {
-        font-size: 20px;
-        line-height: 25pt;
-        top: 15px;
-        left: 4%;
-    }
-
-    p.hide1, p.hide2, p.hide3, p.hide4, p.hide5, p.hide6, p.hide7 {
-        width: 320px;
-        left: 6%;
-        font-size: 12px;
-    }
-}
-   
-
-  /* Medium devices (tablets, 700px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 700px) {  
-    /* section1 */
-    li {
-        font-size: 18px;
-    }
-
-    div .img-fluid {
-        z-index: 10000;
-        height: 620px;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .intro1 img {
-        position: relative;
-        top: -350px;
-        left: 3%;
-        width: 400px;
-    }
-
-    .intro2 p {
-        position: relative;
-        top: -350px;
-        left: 3%;
-        font-size: 18px;
-    }
-
-    .skills {
-        position: relative;
-        top: -670px;
-        padding-right: 10px;
-    }
-
-    h4 {
-        font-size: 12px;
-    }
-    
-    .skills p {
-        font-size: 28px;
-        margin: -3px;
-    }
-
-
-    /* section2 */
-
-    
-    .title2 p {
-        font-size: 75px;
-        position: relative;
-        top: -570px;
-    }
-
-    .background_color {
-        position: relative;
-        top: -610px;
-    }
-
-    .projects_wrapper {
-        width: 100%;
-        position: relative;
-        top: -500px;
-    }
-
-    div.project1, div.project2, div.project3 {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        top: -800px;
-    }
-
-
-    /* section3 */
-
-    .container3 {
-        position: relative;
-        top: -1150px;
-    }
-    
-    .title3 p {
-        font-size: 75px;
-        position: relative;
-        top: -70px;
-    }
-
-    .education_wrapper {
-        top: 0px;
-    }
-
-    .education_wrapper img{
-        width: 450px;
-        height: 250px;
-    }
-    
-    .education_wrapper img.wider {
-        width: 550px;
-        height: 250px;
-    }
-
-    /* container4 */
-
-    .skills_wrapper p {
-        font-size: 25px;
-        line-height: 30pt;
-        left: 7%;
-    }
-
-    p.hide1, p.hide2, p.hide3, p.hide4, p.hide5, p.hide6, p.hide7 {
-        width: 500px;
-        left: 9%;
-        font-size: 20px;
-    }
-
-}
-   
- 
-   
-  /* Large devices (desktops, 900px and up) */
-@media (min-width: 900px) {  
-    /* section1 */
-    li {
-        font-size: 20px;
-    }
-
-    div .img-fluid {
-        z-index: 10000;
-        height: 620px;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .intro1 img {
-        position: relative;
-        top: -380px;
-        width: 500px;
-    }
-
-    .intro2 p {
-        position: relative;
-        top: -380px;
-        font-size: 22px;
-    }
-
-    .skills {
-        position: relative;
-        top: -710px;
-        padding-right: 20px;
-    }
-
-    h4 {
-        font-size: 15px;
-    }
-    
-    .skills p {
-        font-size: 28px;
-        margin: -3px;
-    }
-
-
-    /* section2 */
-    .title2 p {
-        font-size: 75px;
-        position: relative;
-        top: -570px;
-    }
-
-    .background_color {
-        position: relative;
-        top: -610px;
-    }
-
-    .projects_wrapper {
-        width: 100%;
-        position: relative;
-        top: -500px;
-    }
-
-    div.project1, div.project2, div.project3 {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        top: -750px;
-    }
-    
-
-    /* section3 */
-
-    .container3 {
-        position: relative;
-        top: -1230px;
-    }
-    
-    .title3 p {
-        font-size: 75px;
-        position: relative;
-        top: -70px;
-    }
-
-    /* container4 */
-
-    .skills_wrapper p {
-        font-size: 32px;
-        line-height: 30pt;
-        left: 5%;
-    }
-
-    p.hide1, p.hide2, p.hide3, p.hide4, p.hide5, p.hide6, p.hide7 {
-        width: 700px;
-        left: 7%;
-        font-size: 28px;
-    }
-
-}
-
-  /* Extra Large devices (desktops, 1200px and up) */
-  @media (min-width: 1200px) {       
-    .title2 p {
-        font-size: 75px;
-        position: relative;
-        top: -610px;
-    }
-
-    .background_color {
-        position: relative;
-        top: -650px;
-    }
-
-        
-    .projects_wrapper {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    div.project1, div.project2, div.project3 {
-        width: 310px; 
-        height: 400px;
-        margin: 30px;
-        padding-bottom: 0px;
-        position: relative;
-        top: -850px;
-    }
-
-    .project1 img, .project2 img, .project3 img {
-        padding-top: 40px;
-        width: 110px; 
-        display:block;
-    }
-
-    .project1 img {
-        width: 120px; 
-        position: relative;
-        top: 5px;
-    }
-
-    .project1 a {
-        position: relative;
-        top: 20px;
-    }
-
-    .project1 p {
-        position: relative;
-        top: 65px;
-    }
-    .project1 img {
-        width: 110px; 
-    }
-
-    /* container4 */
-
-
-    .container4 {
-        height: 450px;
-        top: -520px;
-    }
-
-    .container4 p.title4 {
-        font-size: 75px;
-        top: -75px;
-    }
-
-    .skills_wrapper p {
-        font-size: 35px;
-        line-height: 30pt;
-        top: -80px;
-        left: 17%;
-    }
-
-    p.hide1, p.hide2, p.hide3, p.hide4, p.hide5, p.hide6, p.hide7 {
-        width: 600px;
-        left: 22%;
-        font-size: 25px;
-    }
 }
