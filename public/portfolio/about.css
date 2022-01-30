@@ -164,7 +164,7 @@ div.project1, div.project2, div.project3 {
     width: 20%; 
     height: 400px;
     position: relative;
-    top: -140px;
+    top: -130px;
     margin: 50px;
 }
 
@@ -195,7 +195,7 @@ div.project1, div.project2, div.project3 {
 
 .project1 a {
     position: relative;
-    /* top: 10px; */
+    top: -20px;
 }
 
 .project1 p, .project2 p, .project3 p {
@@ -213,7 +213,7 @@ div.project1, div.project2, div.project3 {
 
 .project1 p {
     position: relative;
-    /* top: 45px; */
+    top: -15px;
 }
 
 .projects a:link, .projects a:visited{
@@ -228,9 +228,9 @@ div.project1, div.project2, div.project3 {
 /* container 4  */
 /* container 4  */
 .container4 {
-    height: 1000px;
+    height: 500px;
     position: relative;
-    top: 10px;
+    top: 5px;
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
 }
 
@@ -242,21 +242,54 @@ div.project1, div.project2, div.project3 {
     color: #54150D;
 }
 
-.education_wrapper {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-}
-
-.education_wrapper p {
-    font-size: 35px;
-    color: #54150D;
+.education_wrapper .education_timeline {
     position: relative;
-    text-align: center;
-    
+    top: -80px;
+    left: 20%;
+    display: block;
 }
 
+.education_wrapper .education_timeline p {
+    position: relative;
+    left: 55%;
+    color: #54150D;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.education_wrapper .borderline {
+    border-left: 1px solid #54150D;
+    height: 150px;
+    position: relative;
+    left: 130%;
+}
+
+.education_wrapper .between {
+    opacity: 0.3;
+    height: 30px;
+}
+
+.education_wrapper {
+    display: flex;
+    width: 90%;
+}
+
+.schools {
+    display: block;
+    color: #54150D;
+    font-size: 35px;
+    position: relative;
+    left: 35%;
+    top: -10px;
+}
+
+.smaller {
+    font-size: 20px;
+    margin: 0px;
+    position: relative;
+    top: -20px;
+}
 
 
 /* container5
@@ -266,6 +299,7 @@ container5 */
 .container5 {
     height: 610px;
     position: relative;
+    top: 190px;
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
 }
 
@@ -273,7 +307,7 @@ container5 */
     font-size: 75px;
     position: relative;
     left: 5%;
-    top: -70px;
+    top: -75px;
     color: #54150D;
 }
 
