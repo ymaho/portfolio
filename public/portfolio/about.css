@@ -51,7 +51,7 @@ li a:hover {
     position: relative;
     top: 0;
     padding: 0;
-    height: 500px;
+    height: 450px;
     width: 100%;
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
 }
@@ -130,7 +130,7 @@ container2 */
     color: #54150D;
     position: relative;
     text-align: center;
-    top: -50px;
+    top: -55px;
 }
 
 
@@ -150,7 +150,7 @@ container2 */
 
 .background_color {
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
-    height: 500px;
+    height: 450px;
     top: 170px;
     position: relative;
 }
@@ -165,7 +165,7 @@ div.project1, div.project2, div.project3 {
     width: 20%; 
     height: 400px;
     position: relative;
-    top: -330px;
+    top: -290px;
     margin: 50px;
 }
 
@@ -230,9 +230,9 @@ div.project1, div.project2, div.project3 {
 /* container 4  */
 /* container 4  */
 .container4 {
-    height: 500px;
+    height: 450px;
     position: relative;
-    top: -290px;
+    top: -250px;
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
 }
 
@@ -240,7 +240,7 @@ div.project1, div.project2, div.project3 {
     font-size: 80px;
     position: relative;
     left: 5%;
-    top: -78px;
+    top: -80px;
     color: #54150D;
 }
 
@@ -299,9 +299,9 @@ container5
 container5 */
 
 .container5 {
-    height: 500px;
+    height: 450px;
     position: relative;
-    top: -260px;
+    top: -170px;
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
 }
 
@@ -323,12 +323,12 @@ container5 */
 
 .skills_wrapper p {
     font-size: 30px;
-    line-height: 30pt;
+    line-height: 25pt;
     color: #54150D;
     width: 100%;
     text-align: center;
     position: relative;
-    top: -70px;
+    top: -50px;
     transition: transform 0.5s ease;
     transform: translateX(0px);
 }
