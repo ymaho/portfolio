@@ -366,30 +366,30 @@ p.genskill7:hover + p.hide7 {
     }
     .intro1 img {
         left: 3%;
-        top: 300px;
-        width: 250px;
-        height: 70px;
+        top: 340px;
+        width: 200px;
+        height: 50px;
     }
     .intro2 p {
         left: 3%;
-        top: 305px;
+        top: 345px;
         font-size: 12px;
         border-left: 2px solid;
     }
     .skills {
-        padding-right: 20px;
-        top: 30px;
+        padding-right: 15px;
+        top: 70px;
     }
     h4 {
-        font-size: 12px;
+        font-size: 10px;
     }
     .skills p {
-        font-size: 18px;
+        font-size: 15px;
         line-height: 30pt;
     }
     .container2 {
         height: 500px;
-        top: 220px;
+        top: 280px;
     }
     .title2 p {
         font-size: 50px;
