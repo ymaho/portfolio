@@ -192,7 +192,7 @@ a.smaller {
     .main_wrapper p {
         font-size: 40px;
         top: 380px;
-        left: 30%;
+        left: 25%;
     }
     .main_wrapper p.smaller {
         font-size: 18px;
@@ -203,16 +203,18 @@ a.smaller {
         top: 460px;
     }
     .title1 p {
+        position: relative;
+        top: 50px;
         font-size: 40px;
     }
     a.smaller {
         font-size: 20px;
         position: relative;
-        top: -10px;
+        top: 40px;
     }
     .detail {
         font-size: 15px;
-        top: 5px;
+        top: 45px;
     }
 }
    
@@ -225,12 +227,6 @@ a.smaller {
         position: absolute;
         right: 3%;
     }
-    .fade_in {
-        animation: none;
-    }
-    .animated {
-        animation: none;
-    } 
     .main_wrapper p {
         font-size: 60px;
         top: 330px;
@@ -251,12 +247,6 @@ a.smaller {
     li {
         font-size: 20px;
     }
-    .fade_in {
-        animation: none;
-    }
-    .animated {
-        animation: none;
-    }
     .main_wrapper p {
         font-size: 75px;
         top: 300px;
@@ -270,6 +260,7 @@ a.smaller {
     }
     .title1 p {
         font-size: 60px;
+        top: 0px;
     }
     a.smaller {
         font-size: 30px;
@@ -277,7 +268,7 @@ a.smaller {
     }
     .detail {
         font-size: 20px;
-        top: 15px;
+        top: 10px;
     }
 }
    
