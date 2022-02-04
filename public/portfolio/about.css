@@ -440,14 +440,14 @@ p.genskill7:hover + p.hide7 {
     }
     .education_wrapper {
         position: relative;
-        top: 0px;
+        top: -10px;
     }
     .education_timeline {
         margin: 20px;
         font-size: 12px;
         width: 150px;
         position: relative;
-        left: 10px;
+        left: 0px;
     }
     .borderline {
         height: 100px;
@@ -467,15 +467,15 @@ p.genskill7:hover + p.hide7 {
         width: 100%;
     }
     .school p {
-        font-size: 25px;
+        font-size: 20px;
         line-height: 20pt;
     }
     .school p.smaller {
-        font-size: 12px;
+        font-size: 10px;
         line-height: 15pt;
     }
     .container5 {
-        height: 550px;
+        height: 600px;
         top: 300px;
     }
     .container5 p.title5 {
@@ -483,7 +483,7 @@ p.genskill7:hover + p.hide7 {
         top: -50px;
     }
     .skills_wrapper p {
-        top: 10px;
+        top: 35px;
     }
     .skills_wrapper p:hover, .skills_wrapper p:checked{
         font-size: 20px;
