@@ -191,16 +191,16 @@ a.smaller {
     }
     .main_wrapper p {
         font-size: 40px;
-        top: 380px;
+        top: 410px;
         left: 23%;
     }
     .main_wrapper p.smaller {
         font-size: 15px;
-        top: 430px;
+        top: 460px;
     }
     .main_wrapper p.smallest {
         font-size: 10px;
-        top: 460px;
+        top: 490px;
     }
     .container2 {
         height: 650px;
