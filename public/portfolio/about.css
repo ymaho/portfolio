@@ -390,7 +390,19 @@ p.genskill7:hover + p.hide7 {
         font-size: 18px;
         line-height: 30pt;
     }
-
+    .container2 {
+        height: 500px;
+        top: 220px;
+    }
+    .title2 p {
+        font-size: 50px;
+        top: -50px;
+    }
+    .background_wrapper p {
+        font-size: 15px;
+        top: 0px;
+        line-height: 30pt;
+    }
 }
    
   /* Medium devices (tablets, 700px and up) The navbar toggle appears at this breakpoint */
@@ -425,6 +437,19 @@ p.genskill7:hover + p.hide7 {
         font-size: 25px;
         line-height: 32pt;
     }
+    .container2 {
+        height: 450px;
+        top: 200px;
+    }
+    .title2 p {
+        font-size: 60px;
+        top: -60px;
+    }
+    .background_wrapper p {
+        font-size: 20px;
+        top: 5px;
+        /* line-height: 30pt; */
+    }
 }
    
   /* Large devices (desktops, 900px and up) */
@@ -452,6 +477,17 @@ p.genskill7:hover + p.hide7 {
         font-size: 30px;
         line-height: 33pt;
     }
+    .container2 {
+        top: 210px;
+    }
+    .title2 p {
+        font-size: 80px;
+        top: -80px;
+    }
+    .background_wrapper p {
+        font-size: 30px;
+        top: -70px;
+    }
 }
    
   /* Extra large devices (large desktops, 1200px and up) */
@@ -465,6 +501,10 @@ p.genskill7:hover + p.hide7 {
     }
     .skills {
         top: -100px;
+    }
+    .background_wrapper p {
+        top: -80px;
+        line-height: 40pt;
     }
 }
 
