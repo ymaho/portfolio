@@ -192,15 +192,18 @@ a.smaller {
     .main_wrapper p {
         font-size: 40px;
         top: 380px;
-        left: 25%;
+        left: 23%;
     }
     .main_wrapper p.smaller {
-        font-size: 18px;
+        font-size: 15px;
         top: 430px;
     }
     .main_wrapper p.smallest {
-        font-size: 12px;
+        font-size: 10px;
         top: 460px;
+    }
+    .container2 {
+        height: 650px;
     }
     .title1 p {
         position: relative;
@@ -257,6 +260,9 @@ a.smaller {
     }
     .main_wrapper p.smallest {
         font-size: 18px;
+    }
+    .container2 {
+        height: 550px;
     }
     .title1 p {
         font-size: 60px;
