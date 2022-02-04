@@ -59,30 +59,25 @@ li a:hover {
     top: 250px;
     width: 40%;
     height: 100px;
-    z-index: 100;
-    /* ^^makes text over the image */
 }
 
 .intro2 p {
     position: relative;
     left: 8%;
     top: 255px;
-    color: #54150D;
     font-size: 25px;
     padding-left: 5px;
-    border-left: 3px solid #54150D;
+    border-left: 3px solid;
     z-index: 100;
 }
 
 .skills {
     position: relative;
     text-align: right;
-    padding-right: 50px;
     top: -80px;
 }
 
 h4 {
-    color: #54150D;
     padding: 0px;
     margin: 0px;
     font-size: 18px;
@@ -92,7 +87,7 @@ h4 {
     font-size: 30px;
     padding: 0px;
     margin: -5px;
-    color: #54150D;
+
 }
 
 /* container2
@@ -103,16 +98,15 @@ container2 */
     height: 450px;
     width: 100%;
     position: relative;
-    top: 200px;
+    top: 210px;
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
 }
 
 .title2 p {
     font-size: 80px;
     position: relative;
-    top: -80px;
+    top: -70px;
     left: 5%;
-    color: #54150D;
 }
 
 .background_wrapper {
@@ -124,10 +118,9 @@ container2 */
 
 .background_wrapper p {
     font-size: 30px;
-    color: #54150D;
     position: relative;
     text-align: center;
-    top: -55px;
+    top: -65px;
 }
 
 
@@ -139,16 +132,15 @@ container2 */
     font-size: 80px;
     position: relative;
     left: 5%;
-    top: 210px;
+    top: 230px;
     margin-bottom: 0px;
     z-index: 100;
-    color: #54150D;
 }
 
 .background_color {
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
     height: 450px;
-    top: 170px;
+    top: 190px;
     position: relative;
 }
 
@@ -162,7 +154,7 @@ div.project1, div.project2, div.project3 {
     width: 20%; 
     height: 400px;
     position: relative;
-    top: -290px;
+    top: -270px;
     margin: 50px;
 }
 
@@ -193,7 +185,7 @@ div.project1, div.project2, div.project3 {
 
 .project1 a {
     position: relative;
-    top: -20px;
+    top: -10px;
 }
 
 .project1 p, .project2 p, .project3 p {
@@ -201,7 +193,7 @@ div.project1, div.project2, div.project3 {
     text-align: center;
     /* top: 10px; */
     font-size: 20px;
-    color: #54150D;
+    /* color: #54150D; */
     text-decoration: none;
     display: block; 
     margin: auto;
@@ -212,7 +204,7 @@ div.project1, div.project2, div.project3 {
 
 .project1 p {
     position: relative;
-    top: -15px;
+    top: -10px;
 }
 
 .projects a:link, .projects a:visited{
@@ -229,7 +221,7 @@ div.project1, div.project2, div.project3 {
 .container4 {
     height: 450px;
     position: relative;
-    top: -250px;
+    top: -235px;
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
 }
 
@@ -237,13 +229,12 @@ div.project1, div.project2, div.project3 {
     font-size: 80px;
     position: relative;
     left: 5%;
-    top: -80px;
-    color: #54150D;
+    top: -65px;
 }
 
 .education_wrapper .education_timeline {
     position: relative;
-    top: -90px;
+    top: -75px;
     left: 20%;
     display: block;
 }
@@ -251,7 +242,6 @@ div.project1, div.project2, div.project3 {
 .education_wrapper .education_timeline p {
     position: relative;
     left: 55%;
-    color: #54150D;
     font-size: 20px;
     padding: 10px;
     margin: 0px;
@@ -276,11 +266,10 @@ div.project1, div.project2, div.project3 {
 
 .schools {
     display: block;
-    color: #54150D;
     font-size: 30px;
     position: relative;
     left: 30%;
-    top: -55px;
+    top: -40px;
 }
 
 .smaller {
@@ -296,9 +285,9 @@ container5
 container5 */
 
 .container5 {
-    height: 450px;
+    height: 500px;
     position: relative;
-    top: -170px;
+    top: -150px;
     background-image: linear-gradient(#EEE6E5, #FFFFFF);
 }
 
@@ -306,8 +295,7 @@ container5 */
     font-size: 75px;
     position: relative;
     left: 5%;
-    top: -75px;
-    color: #54150D;
+    top: -55px;
 }
 
 .skills_wrapper {
@@ -321,11 +309,10 @@ container5 */
 .skills_wrapper p {
     font-size: 30px;
     line-height: 25pt;
-    color: #54150D;
     width: 100%;
     text-align: center;
     position: relative;
-    top: -50px;
+    top: -40px;
     transition: transform 0.5s ease;
     transform: translateX(0px);
 }
@@ -350,7 +337,6 @@ p.genskill3:hover + p.hide3, p.genskill4:hover + p.hide4,
 p.genskill5:hover + p.hide5, p.genskill6:hover + p.hide6,
 p.genskill7:hover + p.hide7 {
     display: block;
-    color: #54150D;
     -webkit-animation: fadeIn 2s;
     animation: fadeIn 2s;
     
@@ -380,6 +366,31 @@ p.genskill7:hover + p.hide7 {
     li {
         font-size: 15px;
     }
+    .intro1 img {
+        left: 3%;
+        top: 300px;
+        width: 250px;
+        height: 70px;
+    }
+    .intro2 p {
+        /* position: relative; */
+        left: 3%;
+        top: 305px;
+        font-size: 12px;
+        border-left: 2px solid;
+    }
+    .skills {
+        padding-right: 20px;
+        top: 10px;
+    }
+    h4 {
+        font-size: 12px;
+    }
+    .skills p {
+        font-size: 20px;
+        line-height: 30pt;
+    }
+
 }
    
   /* Medium devices (tablets, 700px and up) The navbar toggle appears at this breakpoint */
@@ -391,6 +402,29 @@ p.genskill7:hover + p.hide7 {
         position: absolute;
         right: 3%;
     }
+    .intro1 img {
+        width: 350px;
+        left: 5%;
+        top: 250px;
+        height: 100px;
+    }
+    .intro2 p {
+        left: 5%;
+        top: 255px;
+        font-size: 15px;
+        border-left: 3px solid;
+    }
+    .skills {
+        padding-right: 30px;
+        top: -40px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    .skills p {
+        font-size: 25px;
+        line-height: 32pt;
+    }
 }
    
   /* Large devices (desktops, 900px and up) */
@@ -398,12 +432,40 @@ p.genskill7:hover + p.hide7 {
     li {
         font-size: 20px;
     }
-
+    .intro1 img {
+        width: 400px;
+        left: 8%;
+        height: 100px;
+    }
+    .intro2 p {
+        left: 8%;
+        font-size: 20px;
+    }
+    .skills {
+        padding-right: 50px;
+        top: -65px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    .skills p {
+        font-size: 30px;
+        line-height: 33pt;
+    }
 }
    
   /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-
+    .intro1 img {
+        width: 500px;
+        height: 120px;
+    }
+    .intro2 p {
+        font-size: 25px;
+    }
+    .skills {
+        top: -100px;
+    }
 }
 
 
