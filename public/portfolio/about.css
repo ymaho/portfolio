@@ -230,52 +230,52 @@ div.project1, div.project2, div.project3 {
     top: -65px;
 }
 
-.education_wrapper .education_timeline {
-    position: relative;
-    top: -75px;
-    left: 20%;
-    display: block;
+.education_wrapper {
+    height: max-content;
+    display: flex;
+
+    align-items: center;
+    /* ^ vertically centralizing  */
+    justify-content: center;
+    /* ^ horizontally centralizing  */
 }
 
-.education_wrapper .education_timeline p {
-    position: relative;
-    left: 55%;
+.education_wrapper p {
+    margin: 5px;
+}
+
+.education_timeline {
+    margin: 50px;
     font-size: 20px;
-    padding: 10px;
-    margin: 0px;
 }
-
-.education_wrapper .borderline {
+.borderline {
     border-left: 1px solid #54150D;
     height: 80px;
     position: relative;
-    left: 130%;
+    left: 75px;
 }
-
-.education_wrapper .between {
-    opacity: 0.3;
+.between {
     height: 30px;
+    opacity: 0.3;
 }
-
-.education_wrapper {
-    display: flex;
-    width: 90%;
+.schools_container {
+    position: relative;
+    top: 30px;
 }
-
-.schools {
-    display: block;
+.school {
+    margin-bottom: 60px;
+}
+.school p {
     font-size: 30px;
-    position: relative;
-    left: 30%;
-    top: -40px;
+    margin: 0px;
+    line-height: 25pt;
+
+}
+.school p.smaller {
+    font-size: 20px;
+    line-height: 20pt;
 }
 
-.smaller {
-    font-size: 20px;
-    margin: 0px;
-    position: relative;
-    top: -20px;
-}
 
 
 /* container5
@@ -430,6 +430,43 @@ p.genskill7:hover + p.hide7 {
     .project1 img {
         width: 40%; 
     }
+    .container4 {
+        height: 500px;
+        top: 0px;
+    }
+    .title4 p {
+        font-size: 50px;
+        top: -50px;
+    }
+    .education_timeline {
+        margin: 20px;
+        font-size: 12px;
+        width: 150px;
+    }
+    .borderline {
+        height: 100px;
+        left: 48px;
+    }
+    .between {
+        height: 30px;
+        opacity: 0.3;
+    }
+    .schools_container {
+        position: relative;
+        top: 45px;
+        left: -90px;
+    }
+    .school {
+        margin-bottom: 90px;
+    }
+    .school p {
+        font-size: 25px;
+        line-height: 20pt;
+    }
+    .school p.smaller {
+        font-size: 10px;
+        line-height: 15pt;
+    }
 }
    
   /* Medium devices (tablets, 700px and up) The navbar toggle appears at this breakpoint */
@@ -495,6 +532,17 @@ p.genskill7:hover + p.hide7 {
     .project1 img {
         width: 40%; 
     }
+    .container4 {
+        height: 450px;
+    }
+    .title4 p {
+        font-size: 60px;
+        top: -60px;
+    }
+    .education_wrapper {
+        position: relative;
+        top: -50px;
+    }
 }
    
   /* Large devices (desktops, 900px and up) */
@@ -548,6 +596,37 @@ p.genskill7:hover + p.hide7 {
         top: -250px;
         width: 20%; 
         margin: 50px;
+    }
+    .container4 {
+        top: -225px;
+    }
+    .title4 p {
+        font-size: 80px;
+        top: -80px;
+    }
+    .education_wrapper {
+        top: -155px;
+    }
+    .education_timeline {
+        margin: 70px;
+        font-size: 20px;
+    }
+    .borderline {
+        left: 77px;
+    }
+    .schools_container {
+        top: 45px;
+    }
+    .school {
+        margin-bottom: 87px;
+    }
+    .school p {
+        font-size: 30px;
+        line-height: 25pt;
+    }
+    .school p.smaller {
+        font-size: 20px;
+        line-height: 20pt;
     }
 }
    
