@@ -397,16 +397,16 @@ p.genskill7:hover + p.hide7 {
     }
     .background_wrapper p {
         font-size: 15px;
-        top: 0px;
+        top: 20px;
         line-height: 30pt;
     }
     .title3 p {
         font-size: 50px;
-        top: 400px;
+        top: 420px;
     }
     .background_color {
         height: 500px;
-        top: 375px;
+        top: 395px;
     }
     .projects_wrapper {
         display: block;
@@ -476,14 +476,14 @@ p.genskill7:hover + p.hide7 {
     }
     .container5 {
         height: 600px;
-        top: 300px;
+        top: 350px;
     }
     .container5 p.title5 {
         font-size: 50px;
         top: -50px;
     }
     .skills_wrapper p {
-        top: 35px;
+        top: 55px;
     }
     .skills_wrapper p:hover, .skills_wrapper p:checked{
         font-size: 20px;
