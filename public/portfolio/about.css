@@ -438,6 +438,10 @@ p.genskill7:hover + p.hide7 {
         font-size: 50px;
         top: -50px;
     }
+    .education_wrapper {
+        position: relative;
+        top: -20px;
+    }
     .education_timeline {
         margin: 20px;
         font-size: 12px;
@@ -466,6 +470,24 @@ p.genskill7:hover + p.hide7 {
     .school p.smaller {
         font-size: 10px;
         line-height: 15pt;
+    }
+    .container5 {
+        height: 500px;
+        top: 100px;
+    }
+    .container5 p.title5 {
+        font-size: 50px;
+        top: -50px;
+    }
+    .skills_wrapper p {
+        top: 10px;
+    }
+    .skills_wrapper p:hover, .skills_wrapper p:checked{
+        font-size: 20px;
+    }
+    p.hide1, p.hide2, p.hide3, p.hide4, p.hide5, p.hide6, p.hide7 {
+        display: none;
+        font-size: 10px;
     }
 }
    
@@ -540,8 +562,13 @@ p.genskill7:hover + p.hide7 {
         top: -60px;
     }
     .education_wrapper {
-        position: relative;
         top: -50px;
+    }
+    .container5 {
+        height: 450px;
+    }
+    .container5 p.title5 {
+        font-size: 60px;
     }
 }
    
@@ -628,6 +655,22 @@ p.genskill7:hover + p.hide7 {
         font-size: 20px;
         line-height: 20pt;
     }
+    .container5 {
+        top: -130px;
+    }
+    .container5 p.title5 {
+        font-size: 80px;
+        top: -80px;
+    }
+    .skills_wrapper p {
+        top: -50px;
+    }
+    .skills_wrapper p:hover, .skills_wrapper p:checked{
+        font-size: 50px;
+    }
+    p.hide1, p.hide2, p.hide3, p.hide4, p.hide5, p.hide6, p.hide7 {
+        font-size: 18px;
+    }
 }
    
   /* Extra large devices (large desktops, 1200px and up) */
@@ -645,6 +688,9 @@ p.genskill7:hover + p.hide7 {
     .background_wrapper p {
         top: -80px;
         line-height: 40pt;
+    }
+    p.hide1, p.hide2, p.hide3, p.hide4, p.hide5, p.hide6, p.hide7 {
+        font-size: 20px;
     }
 }
 
