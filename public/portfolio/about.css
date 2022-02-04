@@ -402,11 +402,11 @@ p.genskill7:hover + p.hide7 {
     }
     .title3 p {
         font-size: 50px;
-        top: 280px;
+        top: 310px;
     }
     .background_color {
         height: 500px;
-        top: 255px;
+        top: 285px;
     }
     .projects_wrapper {
         display: block;
@@ -414,7 +414,7 @@ p.genskill7:hover + p.hide7 {
     }
     div.project1, div.project2, div.project3 {
         width: 60%; 
-        top: -140px;
+        top: -110px;
         margin-top: 0px;
         margin-bottom: 0px;
         margin-left: auto;
@@ -446,10 +446,12 @@ p.genskill7:hover + p.hide7 {
         margin: 20px;
         font-size: 12px;
         width: 150px;
+        position: relative;
+        left: 10px;
     }
     .borderline {
         height: 100px;
-        left: 48px;
+        left: 46px;
     }
     .between {
         height: 30px;
@@ -458,17 +460,18 @@ p.genskill7:hover + p.hide7 {
     .schools_container {
         position: relative;
         top: 45px;
-        left: -90px;
+        left: -60px;
     }
     .school {
         margin-bottom: 90px;
+        width: 100%;
     }
     .school p {
         font-size: 25px;
         line-height: 20pt;
     }
     .school p.smaller {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 15pt;
     }
     .container5 {
