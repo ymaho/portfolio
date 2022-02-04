@@ -366,19 +366,19 @@ p.genskill7:hover + p.hide7 {
     }
     .intro1 img {
         left: 3%;
-        top: 340px;
+        top: 345px;
         width: 200px;
         height: 50px;
     }
     .intro2 p {
         left: 3%;
-        top: 345px;
+        top: 350px;
         font-size: 12px;
         border-left: 2px solid;
     }
     .skills {
         padding-right: 15px;
-        top: 70px;
+        top: 75px;
     }
     h4 {
         font-size: 10px;
@@ -389,7 +389,7 @@ p.genskill7:hover + p.hide7 {
     }
     .container2 {
         height: 500px;
-        top: 280px;
+        top: 335px;
     }
     .title2 p {
         font-size: 50px;
@@ -402,11 +402,11 @@ p.genskill7:hover + p.hide7 {
     }
     .title3 p {
         font-size: 50px;
-        top: 310px;
+        top: 400px;
     }
     .background_color {
         height: 500px;
-        top: 285px;
+        top: 375px;
     }
     .projects_wrapper {
         display: block;
@@ -414,7 +414,7 @@ p.genskill7:hover + p.hide7 {
     }
     div.project1, div.project2, div.project3 {
         width: 60%; 
-        top: -110px;
+        top: 0px;
         margin-top: 0px;
         margin-bottom: 0px;
         margin-left: auto;
@@ -432,7 +432,7 @@ p.genskill7:hover + p.hide7 {
     }
     .container4 {
         height: 500px;
-        top: 0px;
+        top: 140px;
     }
     .title4 p {
         font-size: 50px;
@@ -440,7 +440,7 @@ p.genskill7:hover + p.hide7 {
     }
     .education_wrapper {
         position: relative;
-        top: -20px;
+        top: 0px;
     }
     .education_timeline {
         margin: 20px;
@@ -475,8 +475,8 @@ p.genskill7:hover + p.hide7 {
         line-height: 15pt;
     }
     .container5 {
-        height: 500px;
-        top: 100px;
+        height: 550px;
+        top: 300px;
     }
     .container5 p.title5 {
         font-size: 50px;
