@@ -460,7 +460,8 @@ p.genskill7:hover + p.hide7 {
     .schools_container {
         position: relative;
         top: 45px;
-        left: -90px;
+        left: -70px;
+        width: 280px;
     }
     .school {
         margin-bottom: 90px;
