@@ -445,7 +445,7 @@ p.genskill7:hover + p.hide7 {
     .education_timeline {
         margin: 20px;
         font-size: 12px;
-        width: 150px;
+        width: 100px;
         position: relative;
         left: 0px;
     }
@@ -460,7 +460,7 @@ p.genskill7:hover + p.hide7 {
     .schools_container {
         position: relative;
         top: 45px;
-        left: -70px;
+        left: -50px;
         width: 280px;
     }
     .school {
@@ -647,6 +647,7 @@ p.genskill7:hover + p.hide7 {
     }
     .schools_container {
         top: 45px;
+        width: 560px;
     }
     .school {
         margin-bottom: 87px;
