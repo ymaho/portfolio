@@ -636,11 +636,12 @@ p.genskill7:hover + p.hide7 {
         top: -80px;
     }
     .education_wrapper {
-        top: -155px;
+        top: -160px;
     }
     .education_timeline {
         margin: 70px;
         font-size: 20px;
+        width: 120px;
     }
     .borderline {
         left: 77px;
