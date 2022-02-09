@@ -3,7 +3,7 @@
 It is an on-going project that I have been working to showcase my techinal skills: programming, interface design, and degital design. 
 
 ### Link to Website
-[Maho's Portfolio Website](https://ymd99mh.github.io/portfolio/public/portfolio/index.html)
+[Maho's Portfolio Website](https://ymd99mh.github.io/portfolio/public/index.html)
 
 ### Target Browsers
 * Macbook 12"/13", Macbook Pro 13"/14"/15"16"
