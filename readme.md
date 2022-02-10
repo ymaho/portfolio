@@ -1,4 +1,4 @@
-## Portfolio Website
+## Portfolio Website 👩‍💻
 ### Description
 An on-going project to showcase my techinal skills: programming, interface design, and degital design. 
 
