@@ -22,7 +22,7 @@ An on-going project that I have been working to showcase my techinal skills: pro
 
 ### Challenges
 * To make the webstie responsive for different screen sizes especially for the Project section in About page
-* To design the website simple, aesthetic, and easy to navigate for user
+* To understand well about the user and their perspective and apply it to designing portion
 * To utilize Bootstrap - it was first time using Bootstrap and there are many more rooms for improvements
 
 ### Known bugs
