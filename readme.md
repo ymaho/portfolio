@@ -1,6 +1,6 @@
 ## Portfolio Website
 ### Description
-An on-going project that I have been working to showcase my techinal skills: programming, interface design, and degital design. 
+An on-going project to showcase my techinal skills: programming, interface design, and degital design. 
 
 ### Link to Website
 [Maho's Portfolio Website](https://ymd99mh.github.io/portfolio/public/index.html)
