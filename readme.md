@@ -6,8 +6,8 @@ An on-going project to showcase my techinal skills: programming, interface desig
 [Maho's Portfolio Website](https://ymd99mh.github.io/portfolio/public/index.html)
 
 ### Technologies
-* HTML
-* CSS
+* HTML5
+* CSS3
 * Bootstrap
 * Adobe Color
 * Adobe Illustrator 
