@@ -35,6 +35,7 @@ Using laptop is recommended for the best user-interface experience.
 * Add more features such as a job experience section in About page
 * Add demo for these projects in Projects page
 * Add back-end portion such as a direct messaging system
+* Edit interface design to be more beautiful and creative
 
 ### Comment
 Thank you for visiting my portfolio website! Please let me know if you have any questions or concerns about me or the website(My email: mahoo.yamada@gmail.com). I would love to hear what you think, and your feedback will help me to improve more. 
